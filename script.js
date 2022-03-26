@@ -409,6 +409,7 @@ var m7_7 = ["", "", "", "", ""];
   //5_2 syl
 var m7_2_5 = ["", "", "", "", ""];
 
+let vid;
 
 let orticaBold;
 function preload() {
@@ -419,13 +420,21 @@ function setup() {
   var canvas =  createCanvas(windowWidth, windowHeight);
   canvas.parent("canvas");
   textFont(orticaBold);
+//   responsive font size
   textSize(36);
 
-  noLoop();
+
+// video
+    vid = createVideo("images/bathroom.mp4");
+    vid.size(640, 360);
+    vid.volume(0);
+    vid.loop();
+
 } 
 
 function draw() { 
   background(220);
+  image(vid, 0, 0);
   
   ////////////////////////////////////
   // test test test - remove on launch 
