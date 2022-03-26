@@ -1,3 +1,4 @@
+
 //!!!!!!!!!!!!!!!!!!!
 // gets current date
 //!!!!!!!!!!!!!!!!!!!
@@ -409,12 +410,17 @@ var m7_7 = ["", "", "", "", ""];
 var m7_2_5 = ["", "", "", "", ""];
 
 
-
+let orticaBold;
+function preload() {
+    orticaBold = loadFont('images/Ortica-Bold.woff');
+}
 
 function setup() { 
   var canvas =  createCanvas(windowWidth, windowHeight);
   canvas.parent("canvas");
-  textFont("Arial",15);
+  textFont("orticaBold");
+  textSize(36);
+
   noLoop();
 } 
 
