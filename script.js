@@ -412,13 +412,13 @@ var m7_2_5 = ["", "", "", "", ""];
 
 let orticaBold;
 function preload() {
-    orticaBold = loadFont('images/Ortica-Bold.woff');
+    orticaBold = loadFont('images/Ortica-Bold.otf');
 }
 
 function setup() { 
   var canvas =  createCanvas(windowWidth, windowHeight);
   canvas.parent("canvas");
-  textFont("orticaBold");
+  textFont(orticaBold);
   textSize(36);
 
   noLoop();
