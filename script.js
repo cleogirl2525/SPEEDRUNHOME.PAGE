@@ -414,27 +414,28 @@ let vid;
 let orticaBold;
 function preload() {
     orticaBold = loadFont('images/Ortica-Bold.otf');
+    vid = createVideo("images/bathroom.mp4");
 }
 
 function setup() { 
   var canvas =  createCanvas(windowWidth, windowHeight);
   canvas.parent("canvas");
   textFont(orticaBold);
-//   responsive font size
-  textSize(36);
 
+//   noLoop();
 
-// video
-    vid = createVideo("images/bathroom.mp4");
-    vid.size(640, 360);
-    vid.volume(0);
-    vid.loop();
+  
+  
 
 } 
 
 function draw() { 
   background(220);
-  image(vid, 0, 0);
+  // video
+  // responsive font size
+  textSize(36);
+  
+  
   
   ////////////////////////////////////
   // test test test - remove on launch 
@@ -444,7 +445,19 @@ function draw() {
       now.getMonth() === todayDate.getMonth() &&
       now.getYear() === todayDate.getYear()
     ) {
-      a7();
+        noLoop();
+        a7();
+
+        loop();
+        vid.size(640, 360);
+        vid.volume(0);
+        vid.loop();
+        translate(windowWidth/2, windowHeight/2);
+        image(vid, 0, 0);
+
+        // noLoop();
+     
+    
     } 
   // test test test - remove on launch 
   ////////////////////////////////////
@@ -860,6 +873,7 @@ function draw() {
 ////////////////////////
 // april 7 random strings
 function a7(){
+
   var randomword1 = random(a7_5);//pick a random word!
   text(randomword1, 50, 100);
   
