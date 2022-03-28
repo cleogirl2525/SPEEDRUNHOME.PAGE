@@ -6,7 +6,8 @@ const todayDate = new Date();
 
 
 //test test test var for current date prior to launch -remove at launch
-var now = new Date('March 27, 2022 00:00:01');
+var now = new Date('March 28, 2022 00:00:01');
+
 
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -46,10 +47,14 @@ var may_7 = new Date('May 6, 2022 00:00:01');
 
 
 
+
+
+
+
+
 //!!!!!!!!!!!!!!!!!!!!!!!
 // arrays for each date
 //!!!!!!!!!!!!!!!!!!!!!!!
-
 /////////////////////////
 //haiku array for april 7
   //5 syl
@@ -409,37 +414,33 @@ var m7_7 = ["", "", "", "", ""];
   //5_2 syl
 var m7_2_5 = ["", "", "", "", ""];
 
-let vid;
 
-let orticaBold;
-function preload() {
-    orticaBold = loadFont('images/Ortica-Bold.otf');
-    vid = createVideo("images/bathroom.mp4");
-}
 
-function setup() { 
-  var canvas =  createCanvas(windowWidth, windowHeight);
-  canvas.parent("canvas");
-  textFont(orticaBold);
-    vid.hide();
-//????????????????????????????
-//   need this OFF for video to run?
-//   noLoop();
 
-  
-  
+//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-} 
+$( document ).ready(function() {
 
-function draw() { 
-  background(220);
-  // video
-  // responsive font size
-  textSize(36);
-//   frameRate(1);
-  
-  
-  
+
+//!!!!!!!!!!!!!!!!!!!!!!!
+// hide all videos
+//!!!!!!!!!!!!!!!!!!!!!!!
+  $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
+
+  $("#modal").hide();
+
+//!!!!!!!!!!!!!!!!!!!!!!!
+// popup modal
+//!!!!!!!!!!!!!!!!!!!!!!!
+ $("#circle").click(function(){
+  $("#modal").slideToggle();
+ });
+
+
+
+
   ////////////////////////////////////
   // test test test - remove on launch 
   // tests for current date
@@ -448,20 +449,14 @@ function draw() {
       now.getMonth() === todayDate.getMonth() &&
       now.getYear() === todayDate.getYear()
     ) {
-        // noLoop();
-        a7();
-
-        loop();
-        vid.size(640, 360);
-        vid.volume(0);
-        vid.loop();
-        // vid.speed(20);
-        translate(windowWidth/2, windowHeight/2);
-        image(vid, 0, 0);
-
-        // noLoop();
-     
-    
+        var randomAnswer1 = a7_5[Math.floor(Math.random() * a7_5.length)];
+        $('#lineOne').html(randomAnswer1);
+        var randomAnswer2 = a7_7[Math.floor(Math.random() * a7_5.length)];
+        $('#lineTwo').html(randomAnswer2);
+        var randomAnswer3 = a7_2_5[Math.floor(Math.random() * a7_5.length)];
+        $('#lineThree').html(randomAnswer3);
+        $('test-Vid').show();
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').hide(); 
     } 
   // test test test - remove on launch 
   ////////////////////////////////////
@@ -475,7 +470,14 @@ function draw() {
       april_7.getMonth() === todayDate.getMonth() &&
       april_7.getYear() === todayDate.getYear()
     ) {
-      a7();
+        var randomAnswer1 = a7_5[Math.floor(Math.random() * a7_5.length)];
+        $('#lineOne').html(randomAnswer1);
+        var randomAnswer2 = a7_7[Math.floor(Math.random() * a7_5.length)];
+        $('#lineTwo').html(randomAnswer2);
+        var randomAnswer3 = a7_2_5[Math.floor(Math.random() * a7_5.length)];
+        $('#lineThree').html(randomAnswer3);
+        $('#v7').css( "display", "block" );
+          $(' #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 7");
     }
@@ -488,7 +490,14 @@ function draw() {
       april_8.getMonth() === todayDate.getMonth() &&
       april_8.getYear() === todayDate.getYear()
     ) {
-      a8();
+        var randomAnswer1 = a8_5[Math.floor(Math.random() * a8_5.length)];
+        $('#lineOne').html(randomAnswer1);
+        var randomAnswer2 = a8_7[Math.floor(Math.random() * a8_5.length)];
+        $('#lineTwo').html(randomAnswer2);
+        var randomAnswer3 = a8_2_5[Math.floor(Math.random() * a8_5.length)];
+        $('#lineThree').html(randomAnswer3);
+        $('#v8').css( "display", "block" );
+          $('#v7,#v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 8");
     }
@@ -501,7 +510,14 @@ function draw() {
       april_9.getMonth() === todayDate.getMonth() &&
       april_9.getYear() === todayDate.getYear()
     ) {
-      a9();
+        var randomAnswer1 = a9_5[Math.floor(Math.random() * a9_5.length)];
+        $('#lineOne').html(randomAnswer1);
+        var randomAnswer2 = a9_7[Math.floor(Math.random() * a9_5.length)];
+        $('#lineTwo').html(randomAnswer2);
+        var randomAnswer3 = a9_2_5[Math.floor(Math.random() * a9_5.length)];
+        $('#lineThree').html(randomAnswer3);
+        $('#v9').css( "display", "block" );
+          $('#v7,#v8, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 9");
     }
@@ -514,7 +530,14 @@ function draw() {
       april_10.getMonth() === todayDate.getMonth() &&
       april_10.getYear() === todayDate.getYear()
     ) {
-      a8();
+        var randomAnswer1 = a10_5[Math.floor(Math.random() * a10_5.length)];
+        $('#lineOne').html(randomAnswer1);
+        var randomAnswer2 = a10_7[Math.floor(Math.random() * a10_5.length)];
+        $('#lineTwo').html(randomAnswer2);
+        var randomAnswer3 = a10_2_5[Math.floor(Math.random() * a10_5.length)];
+        $('#lineThree').html(randomAnswer3);
+        $('#v10').css( "display", "block" );
+          $('#v7,#v8, #v9, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 10");
     }
@@ -872,22 +895,26 @@ function draw() {
   
 ////////////////////
 // closing bracket for draw
-}
+// }
 
 ////////////////////////
 // april 7 random strings
+
 function a7(){
+  // var randomword1 = random(a7_5);//pick a random string!
+  // text(randomword1, 50, 100);
+  
+  // var randomword2 = random(a7_7);//pick a random string!
+  // text(randomword2, 50, 150);
+  
+  // var randomword3 = random(a7_2_5);//pick a random string!
+  // text(randomword3, 50, 200);
 
-  var randomword1 = random(a7_5);//pick a random word!
-  text(randomword1, 50, 100);
-  
-  var randomword2 = random(a7_7);//pick a random word!
-  text(randomword2, 50, 150);
-  
-  var randomword3 = random(a7_2_5);//pick a random word!
-  text(randomword3, 50, 200);
+  var randomAnswer = a7_5[Math.floor(Math.random() * a7_5.length)];
+  console.log(randomAnswer);
+  $('#lineOne').text(randomAnswer);
+
 }
-
 
 ////////////////////////
 // april 8 random strings
@@ -1293,6 +1320,8 @@ function m7(){
   var randomword3 = random(m7_2_5);//pick a random word!
   text(randomword3, 50, 200);
 }
+
+});
 
 
 

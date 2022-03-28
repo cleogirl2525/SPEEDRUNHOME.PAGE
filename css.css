@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Ortica-Bold;
+  src: url(images/Ortica-Bold.woff);
+}
+
+
 body{
     background-color: #FFFFFF;
     font-family: 'Courier New', Courier, monospace;
@@ -5,6 +11,14 @@ body{
     border: 1px dashed #000;
     margin: 20px;
     padding: 20px;
+    font-family: Ortica-Bold;
+    font-size: 6rem;
+}
+
+p{
+  font-size: 2rem;
+  margin: 4rem;
+  color: white;
 }
 
 #canvas{
@@ -37,8 +51,21 @@ body{
     background: #FFFFFF;
   }
 
+  #modal{
+    width: 30vw;
+    height: 40vh;
+    background: blue;
+    z-index: 4000;
+    border: .5px solid black;
+    box-shadow: 1px 1px 6px rgba(0,0,0,.7);
+    position: absolute;
+    top: 4vw;
+    right: 4vw;
+    border-radius: 0;
+}
+
   #ladder{
-    width: 15vw;
+    width: 4vw;
     height: 100vh;
     /* z-index: 5000; */
     background-image: url("images/ladderRungBlack.gif");
@@ -46,14 +73,13 @@ body{
     z-index: 2000;
     position: absolute;
     top: 0;
-    left: 10vw;
+    right: 10vw;
   }
 
   #guy{
-
     position: absolute;
     top: 76vh;
-    left: -1vw;
+    right: -4vw;
     z-index: 3000;
     animation: up 30s linear infinite alternate;
     
@@ -68,3 +94,14 @@ body{
     width: 30vw;
     height: 32vw;
   }
+
+
+  video{
+    position: absolute;
+    top: 0;
+    left: -8vw;
+    z-index: -1;
+    width: 120vw;
+    height: 120vh;
+  }
+
