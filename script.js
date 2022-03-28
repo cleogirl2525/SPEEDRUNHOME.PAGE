@@ -6,7 +6,7 @@ const todayDate = new Date();
 
 
 //test test test var for current date prior to launch -remove at launch
-var now = new Date('March 26, 2022 00:00:01');
+var now = new Date('March 27, 2022 00:00:01');
 
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -421,7 +421,9 @@ function setup() {
   var canvas =  createCanvas(windowWidth, windowHeight);
   canvas.parent("canvas");
   textFont(orticaBold);
-
+    vid.hide();
+//????????????????????????????
+//   need this OFF for video to run?
 //   noLoop();
 
   
@@ -434,6 +436,7 @@ function draw() {
   // video
   // responsive font size
   textSize(36);
+//   frameRate(1);
   
   
   
@@ -445,13 +448,14 @@ function draw() {
       now.getMonth() === todayDate.getMonth() &&
       now.getYear() === todayDate.getYear()
     ) {
-        noLoop();
+        // noLoop();
         a7();
 
         loop();
         vid.size(640, 360);
         vid.volume(0);
         vid.loop();
+        // vid.speed(20);
         translate(windowWidth/2, windowHeight/2);
         image(vid, 0, 0);
 

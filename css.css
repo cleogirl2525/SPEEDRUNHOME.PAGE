@@ -12,6 +12,7 @@ body{
   top: 0;
   left: 0;
   box-shadow: inset 10px 10px  black;
+  z-index: -1;
 }
 
   h1 {
@@ -34,4 +35,36 @@ body{
   }
   #circle:hover {
     background: #FFFFFF;
+  }
+
+  #ladder{
+    width: 15vw;
+    height: 100vh;
+    /* z-index: 5000; */
+    background-image: url("images/ladderRungBlack.gif");
+    background-repeat: repeat-y;
+    z-index: 2000;
+    position: absolute;
+    top: 0;
+    left: 10vw;
+  }
+
+  #guy{
+
+    position: absolute;
+    top: 76vh;
+    left: -1vw;
+    z-index: 3000;
+    animation: up 30s linear infinite alternate;
+    
+  }
+
+  @keyframes up{
+    0%{top: 76vh;}
+    100%{top: -40vh;}
+  }
+
+  #guy img{
+    width: 30vw;
+    height: 32vw;
   }
