@@ -138,3 +138,21 @@ p{
     z-index: -2;
     box-shadow: 1px 1px 50px black inset;
   }
+
+
+  .blackHeart{
+    background-image: url('images/heart-black.gif');
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: blackHOne 10s 1 forwards;
+  }
+
+  @keyframes blackHOne{
+    0%{bottom: 100vh;}
+    100%{bottom: 0vh;}
+  }
