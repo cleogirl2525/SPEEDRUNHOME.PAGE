@@ -18,8 +18,10 @@ body{
 
 p{
   font-size: 1.2rem;
-  margin: 2rem;
   color: white;
+  margin: 0rem;
+  padding: 2em;
+  background: blue;
 }
 
 #canvas{
@@ -38,8 +40,16 @@ p{
     z-index: 30000;
     margin: 0;
     /* font-style: italic; */
-    text-decoration: underline;
-    color: black;
+    /* text-decoration: underline; */
+    color: white;
+    /* text-shadow: h-shadow v-shadow blur-radius color; */
+    text-shadow: 1px 1px 20px blue;
+    animation: shadow 8s infinite alternate;
+  }
+
+  @keyframes shadow {
+    0%{text-shadow: 1px 1px 20px blue;}
+    0%{text-shadow: 1px 1px 20px black;}
   }
 
   #circle {
@@ -62,8 +72,6 @@ p{
 
   #modal{
     width: 30vw;
-    height: 40vh;
-    background: blue;
     z-index: 4000;
     border: .5px solid black;
     box-shadow: 1px 1px 6px rgba(0,0,0,.7);
@@ -71,6 +79,7 @@ p{
     top: 4.5vw;
     right: 4.5vw;
     border-radius: 0;
+    display: none
 }
 
   #ladder{
@@ -140,19 +149,214 @@ p{
   }
 
 
-  .blackHeart{
-    background-image: url('images/heart-black.gif');
-    width: 5vw;
-    height: 5vh;
+
+  /* heart animations */
+  /* delays */
+
+  .blueHeartFour{
+    background-image: url('images/heart-pink.gif');
+    width: 2vw;
+    height: 2vh;
     position: absolute;
-    
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    animation: blackHOne 10s 1 forwards;
+    animation: pinkHeartTwo 40s 1 10s forwards;
+    left: 50vw;
+    bottom: 100vh;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   }
 
-  @keyframes blackHOne{
-    0%{bottom: 100vh;}
-    100%{bottom: 0vh;}
+  .blueHeartOne{
+    background-image: url('images/heart-blue.gif');
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 2vw;
+    bottom: 100vh;
+    animation: blueHeart 920s 1 5s forwards;
   }
+
+  .blueHeartThree{
+    background-image: url('images/heart-blue.gif');
+    width: 11vw;
+    height: 11vh;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: blueHeart 920s 1 10s forwards;
+    left: 50vw;
+    bottom: 100vh;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  }
+
+
+
+
+
+  .blueHeartTwo{
+    background-image: url('images/heart-blue.gif');
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: blueHeart 875s 1 forwards;
+    bottom: 100vh;
+    left: 20vw;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  }
+
+  .redHeartOne{
+    background-image: url('images/heart-pink.gif');
+    width: 7vw;
+    height: 7vh;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: redHeart 700s 1 5s forwards;
+    left: 36vw;
+    bottom: 100vh;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  }
+
+  .redHeartTwo{
+    background-image: url('images/heart-pink.gif');
+    width: 10vw;
+    height: 10vh;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: redHeartTwo 900s 1 10s forwards;
+    left: 84vw;
+    bottom: 100vh;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  }
+
+  .redHeartThree{
+    background-image: url('images/heart-blue.gif');
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: redHeartTwo 20s 1 30s forwards;
+    left: 72vw;
+    bottom: 100vh;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  }
+
+  .redHeartFour{
+    background-image: url('images/heart-blue.gif');
+    width: 7vw;
+    height: 7vh;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: redHeartTwo 1000s 1 500s forwards;
+    left: 92vw;
+    bottom: 100vh;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  }
+
+
+  .pinkHeartOne{
+    background-image: url('images/heart-pink.gif');
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 2vw;
+    bottom: 100vh;
+    animation: pinkHeart 850s 1 300s forwards;
+  }
+
+
+  .blueHeartFour{
+    background-image: url('images/heart-blue.gif');
+    width: 2vw;
+    height: 2vh;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: blueHeartTwo 500s 1 forwards;
+    left: 50vw;
+    bottom: 100vh;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  }
+
+  
+
+    .pinkHeartTwo{
+      background-image: url('images/heart-pink.gif');
+      width: 5vw;
+      height: 5vh;
+      position: absolute;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      animation: pinkHeart 130s 1 forwards;
+      bottom: 100vh;
+      left: 20vw;
+      /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    }
+  
+    .blueHeartThree{
+      background-image: url('images/heart-pink.gif');
+      width: 11vw;
+      height: 11vh;
+      position: absolute;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      animation: pinkHeart 120s 1 10s forwards;
+      left: 50vw;
+      bottom: 100vh;
+      /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    }
+  
+    
+  
+
+
+
+    @keyframes blueHeart{
+      0%{bottom: 100vh;}
+      100%{bottom: 0vh;}
+    }
+  
+    @keyframes blueHeartTwo{
+      0%{bottom: 100vh;}
+      100%{bottom: 2vh;}
+    }
+
+    @keyframes redHeart{
+      0%{bottom: 100vh;}
+      100%{bottom: 6vh;}
+    }
+    @keyframes redHeartTwo{
+      0%{bottom: 100vh;}
+      100%{bottom: 0vh;}
+    }
+
+    @keyframes pinkHeart{
+      0%{bottom: 100vh;}
+      100%{bottom: 10vh;}
+    }
+  
+    @keyframes pinkHeartTwo{
+      0%{bottom: 100vh;}
+      100%{bottom: 7vh;}
+    }

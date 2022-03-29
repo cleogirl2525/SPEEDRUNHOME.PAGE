@@ -6,7 +6,7 @@ const todayDate = new Date();
 
 
 //test test test var for current date prior to launch -remove at launch
-var now = new Date('March 28, 2022 00:00:01');
+var now = new Date('March 29, 2022 00:00:01');
 
 
 
