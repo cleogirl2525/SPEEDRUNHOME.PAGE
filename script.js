@@ -456,7 +456,7 @@ $( document ).ready(function() {
         var randomAnswer3 = a7_2_5[Math.floor(Math.random() * a7_5.length)];
         $('#lineThree').html(randomAnswer3);
         $('test-Vid').show();
-        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').hide(); 
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').hide(); 
     } 
   // test test test - remove on launch 
   ////////////////////////////////////
@@ -477,7 +477,7 @@ $( document ).ready(function() {
         var randomAnswer3 = a7_2_5[Math.floor(Math.random() * a7_5.length)];
         $('#lineThree').html(randomAnswer3);
         $('#v7').css( "display", "block" );
-          $(' #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
+          $('#v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 7");
     }
@@ -497,7 +497,7 @@ $( document ).ready(function() {
         var randomAnswer3 = a8_2_5[Math.floor(Math.random() * a8_5.length)];
         $('#lineThree').html(randomAnswer3);
         $('#v8').css( "display", "block" );
-          $('#v7,#v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
+          $('#v7, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 8");
     }
@@ -517,7 +517,7 @@ $( document ).ready(function() {
         var randomAnswer3 = a9_2_5[Math.floor(Math.random() * a9_5.length)];
         $('#lineThree').html(randomAnswer3);
         $('#v9').css( "display", "block" );
-          $('#v7,#v8, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
+          $('#v7, #v8, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 9");
     }
@@ -537,7 +537,7 @@ $( document ).ready(function() {
         var randomAnswer3 = a10_2_5[Math.floor(Math.random() * a10_5.length)];
         $('#lineThree').html(randomAnswer3);
         $('#v10').css( "display", "block" );
-          $('#v7,#v8, #v9, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
+          $('#v7 ,#v8, #v9, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 10");
     }
@@ -549,7 +549,14 @@ $( document ).ready(function() {
       april_11.getMonth() === todayDate.getMonth() &&
       april_11.getYear() === todayDate.getYear()
     ) {
-      a11();
+      var randomAnswer1 = a11_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a11_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a11_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v11').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 11");
     }
@@ -562,7 +569,14 @@ $( document ).ready(function() {
       april_12.getMonth() === todayDate.getMonth() &&
       april_12.getYear() === todayDate.getYear()
     ) {
-      a12();
+      var randomAnswer1 = a12_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a12_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a12_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v12').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 12");
     }
@@ -575,7 +589,14 @@ $( document ).ready(function() {
       april_13.getMonth() === todayDate.getMonth() &&
       april_13.getYear() === todayDate.getYear()
     ) {
-      a13();
+      var randomAnswer1 = a13_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a13_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a13_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v13').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 13");
     }
@@ -588,7 +609,14 @@ $( document ).ready(function() {
       april_14.getMonth() === todayDate.getMonth() &&
       april_14.getYear() === todayDate.getYear()
     ) {
-      a14();
+      var randomAnswer1 = a14_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a14_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a14_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v14').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 14");
     }
@@ -602,7 +630,14 @@ $( document ).ready(function() {
       april_15.getMonth() === todayDate.getMonth() &&
       april_15.getYear() === todayDate.getYear()
     ) {
-      a15();
+      var randomAnswer1 = a15_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a15_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a15_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v15').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 15");
     }
@@ -615,7 +650,14 @@ $( document ).ready(function() {
       april_16.getMonth() === todayDate.getMonth() &&
       april_16.getYear() === todayDate.getYear()
     ) {
-      a16();
+      var randomAnswer1 = a16_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a16_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a16_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v16').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 16");
     }
@@ -628,7 +670,14 @@ $( document ).ready(function() {
       april_17.getMonth() === todayDate.getMonth() &&
       april_17.getYear() === todayDate.getYear()
     ) {
-      a17();
+      var randomAnswer1 = a17_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a17_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a17_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v17').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 17");
     }
@@ -641,32 +690,53 @@ $( document ).ready(function() {
       april_18.getMonth() === todayDate.getMonth() &&
       april_18.getYear() === todayDate.getYear()
     ) {
-      a18();
+      var randomAnswer1 = a18_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a18_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a18_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v18').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 18");
     }
 
   ///////////////////////////  
-  //april 11
+  //april 19
   if (
       april_19.getDate() === todayDate.getDate() &&
       april_19.getMonth() === todayDate.getMonth() &&
       april_19.getYear() === todayDate.getYear()
     ) {
-      a19();
+      var randomAnswer1 = a19_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a19_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a19_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v19').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
-      console.log("not april 11");
+      console.log("not april 19");
     }
   
   
   ///////////////////////////  
-  //april 10
+  //april 20
   if (
       april_20.getDate() === todayDate.getDate() &&
       april_20.getMonth() === todayDate.getMonth() &&
       april_20.getYear() === todayDate.getYear()
     ) {
-      a20();
+      var randomAnswer1 = a20_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a20_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a20_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v20').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 20");
     }
@@ -679,9 +749,16 @@ $( document ).ready(function() {
       april_21.getMonth() === todayDate.getMonth() &&
       april_21.getYear() === todayDate.getYear()
     ) {
-      a21();
+      var randomAnswer1 = a21_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a21_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a21_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v21').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
-      console.log("not april 13");
+      console.log("not april 21");
     }
   
     
@@ -692,7 +769,14 @@ $( document ).ready(function() {
       april_22.getMonth() === todayDate.getMonth() &&
       april_22.getYear() === todayDate.getYear()
     ) {
-      a22();
+      var randomAnswer1 = a22_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a22_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a22_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v22').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 22");
     }
@@ -705,7 +789,14 @@ $( document ).ready(function() {
       april_23.getMonth() === todayDate.getMonth() &&
       april_23.getYear() === todayDate.getYear()
     ) {
-      a23();
+      var randomAnswer1 = a23_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a23_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a23_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v23').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 23");
     }
@@ -718,7 +809,14 @@ $( document ).ready(function() {
       april_24.getMonth() === todayDate.getMonth() &&
       april_24.getYear() === todayDate.getYear()
     ) {
-      a24();
+      var randomAnswer1 = a24_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a24_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a24_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v24').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 24");
     }
@@ -731,7 +829,14 @@ $( document ).ready(function() {
       april_25.getMonth() === todayDate.getMonth() &&
       april_25.getYear() === todayDate.getYear()
     ) {
-      a25();
+      var randomAnswer1 = a25_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a25_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a25_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v25').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 25");
     }
@@ -744,7 +849,14 @@ $( document ).ready(function() {
       april_26.getMonth() === todayDate.getMonth() &&
       april_26.getYear() === todayDate.getYear()
     ) {
-      a26();
+      var randomAnswer1 = a26_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a26_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a26_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v26').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 26");
     }
@@ -757,7 +869,14 @@ $( document ).ready(function() {
       april_27.getMonth() === todayDate.getMonth() &&
       april_27.getYear() === todayDate.getYear()
     ) {
-      a27();
+      var randomAnswer1 = a27_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a27_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a27_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v27').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 27");
     }
@@ -770,7 +889,14 @@ $( document ).ready(function() {
       april_28.getMonth() === todayDate.getMonth() &&
       april_28.getYear() === todayDate.getYear()
     ) {
-      a28();
+      var randomAnswer1 = a28_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a28_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a28_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v28').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 28");
     }
@@ -783,7 +909,14 @@ $( document ).ready(function() {
       april_29.getMonth() === todayDate.getMonth() &&
       april_29.getYear() === todayDate.getYear()
     ) {
-      a29();
+      var randomAnswer1 = a29_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a29_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a29_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v29').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 29");
     }
@@ -796,7 +929,14 @@ $( document ).ready(function() {
       april_30.getMonth() === todayDate.getMonth() &&
       april_30.getYear() === todayDate.getYear()
     ) {
-      a30();
+      var randomAnswer1 = a30_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = a30_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = a30_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#v30').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not april 30");
     }
@@ -809,7 +949,14 @@ $( document ).ready(function() {
       may_1.getMonth() === todayDate.getMonth() &&
       may_1.getYear() === todayDate.getYear()
     ) {
-      m1();
+      var randomAnswer1 = m1_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = m1_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = m1_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#mv1').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not may 1");
     }
@@ -822,7 +969,14 @@ $( document ).ready(function() {
       may_2.getMonth() === todayDate.getMonth() &&
       may_2.getYear() === todayDate.getYear()
     ) {
-      m2();
+      var randomAnswer1 = m2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = m2_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = m2_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#mv2').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not may 2");
     }
@@ -835,7 +989,14 @@ $( document ).ready(function() {
       may_3.getMonth() === todayDate.getMonth() &&
       may_3.getYear() === todayDate.getYear()
     ) {
-      m3();
+      var randomAnswer1 = m3_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = m3_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = m3_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#mv3').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not may 3");
     }
@@ -848,7 +1009,14 @@ $( document ).ready(function() {
       may_4.getMonth() === todayDate.getMonth() &&
       may_4.getYear() === todayDate.getYear()
     ) {
-      m4();
+      var randomAnswer1 = m4_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = m4_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = m4_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#mv4').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv5, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not may 4");
     }
@@ -861,7 +1029,14 @@ $( document ).ready(function() {
       may_5.getMonth() === todayDate.getMonth() &&
       may_5.getYear() === todayDate.getYear()
     ) {
-      m5();
+      var randomAnswer1 = m5_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = m5_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = m5_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#mv5').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv6, #mv7').css( "display", "none" );
     } else{
       console.log("not may 5");
     }
@@ -874,7 +1049,14 @@ $( document ).ready(function() {
       may_6.getMonth() === todayDate.getMonth() &&
       may_6.getYear() === todayDate.getYear()
     ) {
-      m6();
+      var randomAnswer1 = m6_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = m6_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = m6_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#mv6').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv7').css( "display", "none" );
     } else{
       console.log("not may 6");
     }
@@ -887,7 +1069,14 @@ $( document ).ready(function() {
       may_7.getMonth() === todayDate.getMonth() &&
       may_7.getYear() === todayDate.getYear()
     ) {
-      m7();
+      var randomAnswer1 = m7_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = m7_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = m7_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#mv7').css( "display", "block" );
+        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6').css( "display", "none" );
     } else{
       console.log("not may 7");
     }
