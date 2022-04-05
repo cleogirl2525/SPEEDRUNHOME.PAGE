@@ -6,7 +6,7 @@ const todayDate = new Date();
 
 
 //test test test var for current date prior to launch -remove at launch
-var now = new Date('March 29, 2022 00:00:01');
+var now = new Date('April 5, 2022 00:00:01');
 
 
 
@@ -427,7 +427,7 @@ $( document ).ready(function() {
 //!!!!!!!!!!!!!!!!!!!!!!!
 // hide all videos and the modal
 //!!!!!!!!!!!!!!!!!!!!!!!
-  $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
+  $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
 
   $("#modal").hide();
 
@@ -455,7 +455,7 @@ $( document ).ready(function() {
         $('#lineTwo').html(randomAnswer2);
         var randomAnswer3 = a7_2_5[Math.floor(Math.random() * a7_5.length)];
         $('#lineThree').html(randomAnswer3);
-        $('test-Vid').show();
+        // $('test-Vid').show();
         $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').hide(); 
     } 
   // test test test - remove on launch 
