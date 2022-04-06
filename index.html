@@ -26,9 +26,9 @@
     
 
     <!-- test-Vid -->
-    <video  id="test-Vid" width="640" height="360" autoplay muted loop>
+    <!-- <video  id="test-Vid" width="640" height="360" autoplay muted loop>
         <source src="images/house-BACKOUT.mp4" type="video/mp4">
-    </video>
+    </video> -->
 
 
     <!-- vid april 7 -->
@@ -185,6 +185,26 @@
     <video  id="mv7" width="640" height="360" autoplay muted loop>
         <!-- webcam -->
     </video>
+
+
+
+    <div id="vidContainer">
+        <video autoplay="true" id="videoElement">
+    </video>
+
+    <script>
+        var video = document.querySelector("#videoElement");
+
+        if (navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (stream) {
+            video.srcObject = stream;
+            })
+            .catch(function (err0r) {
+            console.log("Something went wrong!");
+            });
+        }
+    </script>
 
 
     <div id="ladder"></div>

@@ -375,11 +375,27 @@ a{
     }
 
 
+    /* #vidContainer {
+      margin: 0px auto;
+      width: 60vw;
+      height: 60vh;
+    } */
+
+    #videoElement {
+      width: 332vw;
+      height: 116vh;
+      background-color: blue;
+      position: absolute;
+      top: -3vh;
+      left: -143vw;
+      display: none;
+    }
+
+
+
 
     @media screen and (min-width: 992px) {
-      #modal {
-        
-      }
+      
 
       #ladder{
         width: 10vw;
@@ -396,6 +412,14 @@ a{
 
       video{
         width: 120vw;
+        
+      }
+
+      #videoElement {
+        width: 125vw;
+        height: 146vh;
+        top: 0;
+        left: -17vw;
         
       }
 

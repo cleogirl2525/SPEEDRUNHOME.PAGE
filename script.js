@@ -52,6 +52,7 @@ var may_7 = new Date('May 7, 2022 00:00:01');
 
 
 
+
 //!!!!!!!!!!!!!!!!!!!!!!!
 // arrays for each date
 //!!!!!!!!!!!!!!!!!!!!!!!
@@ -430,6 +431,8 @@ $( document ).ready(function() {
   $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').css( "display", "none" );
 
   $("#modal").hide();
+  $("#videoElement").hide();
+  
 
 //!!!!!!!!!!!!!!!!!!!!!!!
 // popup modal
@@ -1075,8 +1078,21 @@ $( document ).ready(function() {
       $('#lineTwo').html(randomAnswer2);
       var randomAnswer3 = m7_2_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineThree').html(randomAnswer3);
-      $('#mv7').css( "display", "block" );
-        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6').css( "display", "none" );
+      // $('#mv7').css( "display", "block" );
+      $("#videoElement").show();
+      $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6').css( "display", "none" );
+
+      var video = document.querySelector("#videoElement");
+
+      if (navigator.mediaDevices.getUserMedia) {
+      navigator.mediaDevices.getUserMedia({ video: true })
+          .then(function (stream) {
+          video.srcObject = stream;
+          })
+          .catch(function (err0r) {
+          console.log("Something went wrong!");
+          });
+      }
     } else{
       console.log("not may 7");
     }
