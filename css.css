@@ -18,11 +18,17 @@ body{
 }
 
 p{
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: white;
   margin: 0rem;
   padding: 2em;
   background: blue;
+}
+
+a{
+  color:rgb(251, 116, 244);
+  text-decoration: underline 2px rgb(251, 116, 244) dotted ;
 }
 
 #canvas{
@@ -72,20 +78,22 @@ p{
   }
 
   #modal{
-    width: 30vw;
+    width: 90vw;
     z-index: 4000;
     border: .5px solid black;
     box-shadow: 1px 1px 6px rgba(0,0,0,.7);
     position: absolute;
-    top: 4.5vw;
+    top: 17.5vw;
     right: 4.5vw;
     border-radius: 0;
-    display: none
+    display: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
   #ladder{
-    width: 10vw;
+    width: 30vw;
     height: 100vh;
     /* z-index: 5000; */
     background-image: url("images/ladderRungBlack.gif");
@@ -98,8 +106,7 @@ p{
 
   #guy{
     position: absolute;
-    top: 76vh;
-    right: 0vw;
+    right: -27vw;
     z-index: 3000;
     animation: up 30s linear infinite alternate;
     
@@ -110,10 +117,13 @@ p{
     100%{top: -40vh;}
   }
 
+
   #guy img{
-    width: 30vw;
-    height: 32vw;
+    width: 96vw;
+    height: 89vw;
   }
+
+
 
 
   video{
@@ -121,8 +131,9 @@ p{
     top: 0;
     left: -8vw;
     z-index: -5;
-    width: 120vw;
+    /* width: 120vw; */
     height: 120vh;
+    width: 462vw;
     box-shadow: 1px 1px 400px black inset;
   }
 
@@ -361,4 +372,31 @@ p{
     @keyframes pinkHeartTwo{
       0%{bottom: 100vh;}
       100%{bottom: 7vh;}
+    }
+
+
+
+    @media screen and (min-width: 992px) {
+      #modal {
+        
+      }
+
+      #ladder{
+        width: 10vw;
+      }
+
+      #guy img{
+        width: 30vw;
+        height: 32vw;
+      }
+
+      #guy{ 
+        right: 0vw;
+      }
+
+      video{
+        width: 120vw;
+        
+      }
+
     }
