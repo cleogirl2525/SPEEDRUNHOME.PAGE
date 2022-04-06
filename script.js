@@ -58,13 +58,13 @@ var may_7 = new Date('May 6, 2022 00:00:01');
 /////////////////////////
 //haiku array for april 7
   //5 syl
-var a7_5 = ["i like you a lot", "this is not a bar", "you want to be you", "it was purple yo", "things are hard always"];
+var a7_5 = ["SPEEDRUNHOME.PAGE"];
 
   //7 syl
-var a7_7 = ["you looking very nice today ", "camo is the coolest pattern", "money doesnt grow on trees forever", "pink will eat you up alive", "robots are surpreme leaders"];
+var a7_7 = ["OEPN 7 APRIL 2022"];
 
     //5_2 syl
-var a7_2_5 = ["i like you a lot2", "this is not a bar2", "you want to be you2", "it was purple yo2", "things are hard always2"];
+var a7_2_5 =  ["SPEEDRUNHOME.PAGE"];
 
 
 /////////////////////////
