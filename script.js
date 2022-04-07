@@ -59,25 +59,24 @@ var may_7 = new Date('May 7, 2022 00:00:01');
 /////////////////////////
 //haiku array for april 7
   //5 syl
-var a7_5 = ["SPEEDRUNHOME.PAGE"];
+var a7_5 = ["seeking sleeping here", "broken bedframe babe", "first day living lighter", "diseased wandering", "the lost key feeling"];
 
   //7 syl
-var a7_7 = ["OEPN 7 APRIL 2022"];
+var a7_7 = ["i'm so glad to know about lavander", "backpack turned two bedroom joint", "puked worry on the terace", "upper guts library", "ascending truly foreward"];
 
     //5_2 syl
-var a7_2_5 =  ["SPEEDRUNHOME.PAGE"];
+var a7_2_5 =  ["lace my queer night's rest", "woship my doompiles", "sick to live confined", "spitting hot steam", "i cant die in bed"];
 
 
 /////////////////////////
 //haiku array for april 8
   //5 syl
-var a8_5 = ["", "", "", "", ""];
-
+var a8_5 = ["cold leather licking", "scrape rain hydroplane", "fingers flirt with hoods", "take a proper pump", "engine light screeching"];
   //7 syl
-var a8_7 = ["", "", "", "", ""];
+var a8_7 = [" bare hands on my seat (warmer)", "now wipers are dance informed", "motorized back and forthing", "pleased as a passenger", "remember fluid overflowed?"]
 
   //5_2 syl
-var a8_2_5 = ["", "", "", "", ""];
+var a8_2_5 = ["ask me for faster", "but fluid really shakes", "choreograph her", "do you want to rev?", "sopping wet and safe"];
 
 
 /////////////////////////
