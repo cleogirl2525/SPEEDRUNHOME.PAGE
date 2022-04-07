@@ -19,6 +19,7 @@ body{
     background-color: blue;
 }
 
+
 p{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -160,8 +161,6 @@ a{
     width: 96vw;
     height: 89vw;
   }
-
-
 
 
   video{
@@ -411,7 +410,6 @@ a{
       0%{bottom: 100vh;}
       100%{bottom: 7vh;}
     }
-
 
     /* #vidContainer {
       margin: 0px auto;

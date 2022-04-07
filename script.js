@@ -53,25 +53,24 @@ var may_7 = new Date('May 7, 2022 00:00:01');
 /////////////////////////
 //haiku array for april 7
   //5 syl
-var a7_5 = ["SPEEDRUNHOME.PAGE"];
+var a7_5 = ["seeking sleeping here", "broken bedframe babe", "first day living lighter", "diseased wandering", "the lost key feeling"];
 
   //7 syl
-var a7_7 = ["OPEN 7 APRIL 2022"];
+var a7_7 = ["i'm so glad to know about lavander", "backpack turned two bedroom joint", "puked worry on the terace", "upper guts library", "ascending truly foreward"];
 
     //5_2 syl
-var a7_2_5 =  ["SPEEDRUNHOME.PAGE"];
+var a7_2_5 =  ["lace my queer night's rest", "woship my doompiles", "sick to live confined", "spitting hot steam", "i cant die in bed"];
 
 
 /////////////////////////
 //haiku array for april 8
   //5 syl
-var a8_5 = ["", "", "", "", ""];
-
+var a8_5 = ["cold leather licking", "scrape rain hydroplane", "fingers flirt with hoods", "take a proper pump", "engine light screeching"];
   //7 syl
-var a8_7 = ["", "", "", "", ""];
+var a8_7 = [" bare hands on my seat (warmer)", "now wipers are dance informed", "motorized back and forthing", "pleased as a passenger", "remember fluid overflowed?"]
 
   //5_2 syl
-var a8_2_5 = ["", "", "", "", ""];
+var a8_2_5 = ["ask me for faster", "but fluid really shakes", "choreograph her", "do you want to rev?", "sopping wet and safe"];
 
 
 /////////////////////////
@@ -1061,35 +1060,35 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //may 7
-  if (
-      may_7.getDate() === todayDate.getDate() &&
-      may_7.getMonth() === todayDate.getMonth() &&
-      may_7.getYear() === todayDate.getYear()
-    ) {
-      var randomAnswer1 = m7_5[Math.floor(Math.random() * a10_5.length)];
-      $('#lineOne').html(randomAnswer1);
-      var randomAnswer2 = m7_7[Math.floor(Math.random() * a10_5.length)];
-      $('#lineTwo').html(randomAnswer2);
-      var randomAnswer3 = m7_2_5[Math.floor(Math.random() * a10_5.length)];
-      $('#lineThree').html(randomAnswer3);
+ //  if (
+ //      may_7.getDate() === todayDate.getDate() &&
+//       may_7.getMonth() === todayDate.getMonth() &&
+//       may_7.getYear() === todayDate.getYear()
+//     ) {
+ //      var randomAnswer1 = m7_5[Math.floor(Math.random() * a10_5.length)];
+//       $('#lineOne').html(randomAnswer1);
+ //      var randomAnswer2 = m7_7[Math.floor(Math.random() * a10_5.length)];
+ //      $('#lineTwo').html(randomAnswer2);
+ //      var randomAnswer3 = m7_2_5[Math.floor(Math.random() * a10_5.length)];
+ //      $('#lineThree').html(randomAnswer3);
       // $('#mv7').css( "display", "block" );
-      $("#videoElement").show();
-      $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6').css( "display", "none" );
+ //      $("#videoElement").show();
+ //      $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6').css( "display", "none" );
 
-      var video = document.querySelector("#videoElement");
+ //      var video = document.querySelector("#videoElement");
 
-      if (navigator.mediaDevices.getUserMedia) {
-      navigator.mediaDevices.getUserMedia({ video: true })
-          .then(function (stream) {
-          video.srcObject = stream;
-          })
-          .catch(function (err0r) {
-          console.log("Something went wrong!");
-          });
-      }
-    } else{
-      console.log("not may 7");
-    }
+    //   if (navigator.mediaDevices.getUserMedia) {
+   //    navigator.mediaDevices.getUserMedia({ video: true })
+   //        .then(function (stream) {
+   //        video.srcObject = stream;
+   //        })
+   //        .catch(function (err0r) {
+   //        console.log("Something went wrong!");
+   //        });
+  //     }
+ //    } else{
+ //      console.log("not may 7");
+//     }
   
   
 ////////////////////
