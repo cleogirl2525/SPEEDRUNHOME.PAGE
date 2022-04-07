@@ -47,12 +47,6 @@ var may_7 = new Date('May 7, 2022 00:00:01');
 
 
 
-
-
-
-
-
-
 //!!!!!!!!!!!!!!!!!!!!!!!
 // arrays for each date
 //!!!!!!!!!!!!!!!!!!!!!!!
@@ -62,7 +56,7 @@ var may_7 = new Date('May 7, 2022 00:00:01');
 var a7_5 = ["SPEEDRUNHOME.PAGE"];
 
   //7 syl
-var a7_7 = ["OEPN 7 APRIL 2022"];
+var a7_7 = ["OPEN 7 APRIL 2022"];
 
     //5_2 syl
 var a7_2_5 =  ["SPEEDRUNHOME.PAGE"];

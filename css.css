@@ -13,8 +13,10 @@ body{
     padding: 20px;
     font-family: Ortica-Bold;
     font-size: 4.5rem;
+    /* position: relative; */
     overflow: hidden;
     height: 89vh;
+    background-color: blue;
 }
 
 p{
@@ -43,6 +45,10 @@ a{
       font-weight: bold;
   }
 
+  #haikuContainer{
+    width: 100vw;
+  }
+
   h2{
     z-index: 30000;
     margin: 0;
@@ -52,7 +58,37 @@ a{
     /* text-shadow: h-shadow v-shadow blur-radius color; */
     text-shadow: 1px 1px 20px blue;
     animation: shadow 8s infinite alternate;
+    font-size: 0.3em;
+
+    /* -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 3;
+    -webkit-hyphenate-limit-chars: 6 3 3;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-zone: 8%;     -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 6 3 3;
+    -moz-hyphenate-limit-lines: 2;
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;     -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 6 3 3;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;
+    -ms-hyphenate-limit-zone: 8%;     hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%; */
   }
+
+  #lineOne, #lineTwo, #lineThree{
+    margin-bottom: 30vh;
+  }
+
+  #lineOne{
+    margin-top: 3vh;
+  }
+
 
   @keyframes shadow {
     0%{text-shadow: 1px 1px 20px blue;}
@@ -86,6 +122,8 @@ a{
     top: 17.5vw;
     right: 4.5vw;
     border-radius: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
     display: none;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -392,10 +430,26 @@ a{
     }
 
 
+    @media screen and (min-width: 600px) {
+      video { 
+        left: -230vw;
+      }
+
+      h2{
+        font-size: 0.8em;
+      }
+    }
 
 
     @media screen and (min-width: 992px) {
       
+      h2{
+        font-size: 1.5em;
+      }
+
+      #lineOne, #lineTwo, #lineThree{
+        margin-bottom: 0vh;
+      }      
 
       #ladder{
         width: 10vw;
