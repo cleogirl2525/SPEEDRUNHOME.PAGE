@@ -9,28 +9,28 @@ body{
     font-family: 'Courier New', Courier, monospace;
     color: black;
     border: 1px dashed #000;
-    margin: 20px;
-    padding: 20px;
+    margin: 0;
     font-family: Ortica-Bold;
-    font-size: 4.5rem;
-    /* position: relative; */
-    overflow: hidden;
-    height: 89vh;
+    overflow: hidden!important;
     background-color: blue;
 }
 
-#mobileOverFlow{
+
+/* #mobileOverFlow{
   overflow: hidden;
-}
+  height: 100vh;
+  width: 100vh;
+} */
 
 
 p{
-  font-size: 1rem;
-  line-height: 1.5rem;
-  color: white;
-  margin: 0rem;
-  padding: 2em;
-  background: blue;
+  font-size: 5vw;
+line-height: 1.7rem;
+color: white;
+margin: 0rem;
+padding: 2em;
+background: blue;
+letter-spacing: 0.3vw;
 }
 
 a{
@@ -52,6 +52,9 @@ a{
 
   #haikuContainer{
     width: 100vw;
+    position: absolute;
+    top: 0;
+    left:6vw;
   }
 
   h2{
@@ -63,7 +66,7 @@ a{
     /* text-shadow: h-shadow v-shadow blur-radius color; */
     text-shadow: 1px 1px 20px blue;
     animation: shadow 8s infinite alternate;
-    font-size: 0.3em;
+    font-size: 8vw;
 
     /* -webkit-hyphens: auto;
     -webkit-hyphenate-limit-before: 3;
@@ -124,13 +127,14 @@ a{
     border: .5px solid black;
     box-shadow: 1px 1px 6px rgba(0,0,0,.7);
     position: absolute;
-    top: 17.5vw;
+    top: 25vw;
     right: 4.5vw;
     border-radius: 0;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     display: none;
     font-family: Arial, Helvetica, sans-serif;
+    height: 80vh;
 }
 
 
@@ -168,14 +172,14 @@ a{
 
 
   video{
-    position: absolute;
-    top: 0;
-    left: -8vw;
+    top: 0vh;
+    left: -40vw;
     z-index: -5;
-    /* width: 120vw; */
-    height: 120vh;
-    width: 462vw;
+    width: 366vw;
+    height: 100vh;
+    width: 395vw;
     box-shadow: 1px 1px 400px black inset;
+    position: absolute;
   }
 
 
@@ -431,23 +435,59 @@ a{
       display: none;
     }
 
+    #dayVideosWrapper{
+      position: relative;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+    }
+
 
     @media screen and (min-width: 600px) {
       video { 
-        left: -230vw;
+        position: absolute;
+        top: -8vh;
+        left: 0vw;
+        z-index: -5;
+        width: 260vw;
+        height: 115vh;
+        box-shadow: 1px 1px 400px black inset;
       }
 
       h2{
-        font-size: 0.8em;
+        font-size: 10vw;
+      }
+
+      p {
+        font-size: 3vw;
+        line-height: 4vw;
       }
     }
+
+
 
 
     @media screen and (min-width: 992px) {
       
       h2{
-        font-size: 1.5em;
+        font-size: 6vw;
       }
+
+      p{
+        font-size: 2vw;
+        line-height: 2rem;
+        letter-spacing: 0.3vw;
+      }
+
+      #modal{
+        width: 90vw;
+        z-index: 4000;
+        top: 10vw;
+        right: 4.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 70vh;
+    }
 
       #lineOne, #lineTwo, #lineThree{
         margin-bottom: 0vh;
@@ -466,17 +506,31 @@ a{
         right: 0vw;
       }
 
-      video{
-        width: 120vw;
-        left: 0;
+      video {
+        position: absolute;
+        top: -8vh;
+        left: 0vw;
+        z-index: -5;
+        width: 100vw;
+        height: 116vh;
+        box-shadow: 1px 1px 400px black inset;
       }
 
-      #videoElement {
+      /* #videoElement {
         width: 125vw;
         height: 146vh;
         top: 0;
         left: -17vw;
         
+      } */
+
+      @media screen and (min-width: 1920px) {
+        p {
+          font-size: 2vw;
+          line-height: 4.5vh;
+          letter-spacing: 0.3vw;
       }
+      }
+
 
     }
