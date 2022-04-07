@@ -125,8 +125,6 @@ a{
   }
 
 
-
-
   video{
     position: absolute;
     top: 0;
@@ -375,7 +373,6 @@ a{
       100%{bottom: 7vh;}
     }
 
-
     /* #vidContainer {
       margin: 0px auto;
       width: 60vw;
@@ -396,10 +393,6 @@ a{
 
 
     @media screen and (min-width: 992px) {
-      
-      #body{
-       font-size: 6.6vw; 
-      }
       
       #ladder{
         width: 10vw;
