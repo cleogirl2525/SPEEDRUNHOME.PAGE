@@ -1066,35 +1066,35 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //may 7
-  if (
-      may_7.getDate() === todayDate.getDate() &&
-      may_7.getMonth() === todayDate.getMonth() &&
-      may_7.getYear() === todayDate.getYear()
-    ) {
-      var randomAnswer1 = m7_5[Math.floor(Math.random() * a10_5.length)];
-      $('#lineOne').html(randomAnswer1);
-      var randomAnswer2 = m7_7[Math.floor(Math.random() * a10_5.length)];
-      $('#lineTwo').html(randomAnswer2);
-      var randomAnswer3 = m7_2_5[Math.floor(Math.random() * a10_5.length)];
-      $('#lineThree').html(randomAnswer3);
+ //  if (
+ //      may_7.getDate() === todayDate.getDate() &&
+//       may_7.getMonth() === todayDate.getMonth() &&
+//       may_7.getYear() === todayDate.getYear()
+//     ) {
+ //      var randomAnswer1 = m7_5[Math.floor(Math.random() * a10_5.length)];
+//       $('#lineOne').html(randomAnswer1);
+ //      var randomAnswer2 = m7_7[Math.floor(Math.random() * a10_5.length)];
+ //      $('#lineTwo').html(randomAnswer2);
+ //      var randomAnswer3 = m7_2_5[Math.floor(Math.random() * a10_5.length)];
+ //      $('#lineThree').html(randomAnswer3);
       // $('#mv7').css( "display", "block" );
-      $("#videoElement").show();
-      $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6').css( "display", "none" );
+ //      $("#videoElement").show();
+ //      $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6').css( "display", "none" );
 
-      var video = document.querySelector("#videoElement");
+ //      var video = document.querySelector("#videoElement");
 
-      if (navigator.mediaDevices.getUserMedia) {
-      navigator.mediaDevices.getUserMedia({ video: true })
-          .then(function (stream) {
-          video.srcObject = stream;
-          })
-          .catch(function (err0r) {
-          console.log("Something went wrong!");
-          });
-      }
-    } else{
-      console.log("not may 7");
-    }
+    //   if (navigator.mediaDevices.getUserMedia) {
+   //    navigator.mediaDevices.getUserMedia({ video: true })
+   //        .then(function (stream) {
+   //        video.srcObject = stream;
+   //        })
+   //        .catch(function (err0r) {
+   //        console.log("Something went wrong!");
+   //        });
+  //     }
+ //    } else{
+ //      console.log("not may 7");
+//     }
   
   
 ////////////////////
