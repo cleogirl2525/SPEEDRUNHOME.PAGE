@@ -12,10 +12,12 @@ body{
     margin: 20px;
     padding: 20px;
     font-family: Ortica-Bold;
-    font-size: 4.5rem;
+    /* font-size: 4.5rem; */
+    font-size: 70vw;
     overflow: hidden;
     height: 89vh;
 }
+
 
 p{
   font-size: 1rem;
