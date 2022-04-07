@@ -51,7 +51,7 @@ a{
   }
 
   #haikuContainer{
-    width: 100vw;
+    width: 84vw;
     position: absolute;
     top: 0;
     left:6vw;
@@ -90,7 +90,7 @@ a{
   }
 
   #lineOne, #lineTwo, #lineThree{
-    margin-bottom: 30vh;
+    margin-bottom: 20vh;
   }
 
   #lineOne{
@@ -173,7 +173,7 @@ a{
 
   video{
     top: 0vh;
-    left: -40vw;
+    left: -90vw;
     z-index: -5;
     width: 366vw;
     height: 100vh;
@@ -448,7 +448,7 @@ a{
       video { 
         position: absolute;
         top: -8vh;
-        left: 0vw;
+        left: -10vw;
         z-index: -5;
         width: 260vw;
         height: 115vh;
@@ -456,8 +456,12 @@ a{
       }
 
       h2{
-        font-size: 10vw;
+        font-size: 8vw;
       }
+
+      #lineOne, #lineTwo, #lineThree {
+        margin-bottom: 13vh;
+    }
 
       p {
         font-size: 3vw;
@@ -490,7 +494,7 @@ a{
     }
 
       #lineOne, #lineTwo, #lineThree{
-        margin-bottom: 0vh;
+        margin-bottom: 5vh;
       }      
 
       #ladder{
