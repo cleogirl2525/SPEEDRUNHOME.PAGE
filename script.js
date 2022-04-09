@@ -74,7 +74,7 @@ var a8_2_5 = ["ask me for faster", "but fluid really shakes", "choreograph her",
 
 
 /////////////////////////
-//haiku array for april 9
+//haiku array for april 9, bathroom
   //5 syl
 var a9_5 = ["", "", "", "", ""];
 
@@ -86,7 +86,7 @@ var a9_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 10
+//haiku array for april 10, bedroom
   //5 syl
 var a10_5 = ["", "", "", "", ""];
 
@@ -98,7 +98,7 @@ var a10_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 11
+//haiku array for april 11, grocery
   //5 syl
 var a11_5 = ["", "", "", "", ""];
 
@@ -110,7 +110,7 @@ var a11_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 12
+//haiku array for april 12, sidewalk
   //5 syl
 var a12_5 = ["", "", "", "", ""];
 
@@ -122,7 +122,7 @@ var a12_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 13
+//haiku array for april 13, festival 
   //5 syl
 var a13_5 = ["", "", "", "", ""];
 
@@ -134,7 +134,7 @@ var a13_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 14
+//haiku array for april 14, hair salon
   //5 syl
 var a14_5 = ["", "", "", "", ""];
 
