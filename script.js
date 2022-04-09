@@ -76,13 +76,13 @@ var a8_2_5 = ["ask me for faster", "but fluid really shakes", "choreograph her",
 /////////////////////////
 //haiku array for april 9, bathroom
   //5 syl
-var a9_5 = ["", "", "", "", ""];
+var a9_5 = ["screaming basin bath", "flush noise washed me good", "around the toilet", "the sweaty title", "faucet fanny bath"];
 
   //7 syl
-var a9_7 = ["", "", "", "", ""];
+var a9_7 = ["waiting for my trickle treat", "a riot of blinking eyes", "six of us wash our dirty", "filthy faithful fingers fall", "coming out to my clean wash rag"];
 
   //5_2 syl
-var a9_2_5 = ["", "", "", "", ""];
+var a9_2_5 = ["my mouth wide open", "i almost fell in", "hands keep to themselves", "dont you dare touch it", "hot soapy gay wow"];
 
 
 /////////////////////////
