@@ -82,7 +82,7 @@ var a9_5 = ["screaming basin bath", "flush noise washed me good", "around the to
 var a9_7 = ["waiting for my trickle treat", "a riot of blinking eyes", "six of us wash our dirty", "filthy faithful fingers fall", "coming out to my clean wash rag"];
 
   //5_2 syl
-var a9_2_5 = ["my mouth wide open", "i almost fell in", "hands keep to themselves", "dont you dare touch it", "hot soapy gay wow"];
+var a9_2_5 = ["my mouth wide open", "i almost fell in", "hands keep to themselves", "dont you dare touch it", "hot soapy gay-wow"];
 
 
 /////////////////////////
