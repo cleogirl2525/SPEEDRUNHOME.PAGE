@@ -100,13 +100,13 @@ var a10_2_5 = ["super socket queer", "recharge us, please god"];
 /////////////////////////
 //haiku array for april 11, grocery
   //5 syl
-var a11_5 = ["", "", "", "", ""];
+var a11_5 = ["asile4asile", "singles market blues", "we belong shopping?", "alumineum bae", "apples, oranges, you"];
 
   //7 syl
-var a11_7 = ["", "", "", "", ""];
+var a11_7 = ["hiding sugar under meat", "walk across town for one chance", "please dont' say its all we do", "wash me, spray me, please de-wax", "what is a diet without"];
 
   //5_2 syl
-var a11_2_5 = ["", "", "", "", ""];
+var a11_2_5 = ["let me have one POUND", "hotties : out of stock", "i'll break your lil eggs", "smooth now, let's peel her", "my daily treat-ting"];
 
 
 /////////////////////////
