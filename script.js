@@ -88,13 +88,13 @@ var a9_2_5 = ["my mouth wide open", "i almost fell in", "hands keep to themselve
 /////////////////////////
 //haiku array for april 10, bedroom
   //5 syl
-var a10_5 = ["", "", "", "", ""];
+var a10_5 = ["squeek room bed power", "queer night stands onece were"];
 
   //7 syl
-var a10_7 = ["", "", "", "", ""];
+var a10_7 = ["one night stand roulette gay", "light and vibration central" ];
 
   //5_2 syl
-var a10_2_5 = ["", "", "", "", ""];
+var a10_2_5 = ["super socket queer", "recharge us, please god"];
 
 
 /////////////////////////
