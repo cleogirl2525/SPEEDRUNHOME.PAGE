@@ -112,13 +112,13 @@ var a11_2_5 = ["let me have one POUND", "hotties : out of stock", "i'll break yo
 /////////////////////////
 //haiku array for april 12, sidewalk
   //5 syl
-var a12_5 = ["", "", "", "", ""];
+var a12_5 = ["they avoid me here", "mama i'm stepping", "they told me to look", "wear those heels instead", "those who cross won't stay"];
 
   //7 syl
-var a12_7 = ["", "", "", "", ""];
+var a12_7 = ["", "one hundred and fifty eight", "down when i walk, but aware", "boots won't carry you anywhere", "cherubic floaters on ice"];
 
   //5_2 syl
-var a12_2_5 = ["", "", "", "", ""];
+var a12_2_5 = ["my only mode", "cracks in the concrete", "i hear how you stare", "blisters are proof", "remember the bricks"];
 
 
 /////////////////////////
