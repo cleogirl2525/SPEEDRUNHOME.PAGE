@@ -127,7 +127,7 @@ var a12_2_5 = ["my only mode", "cracks in the concrete", "i hear how you stare",
 var a13_5 = ["bisexual lights", "wet dancefloor splashes", "anxiety shiver", "VIP list gURLz", "broken sub bummer"];
 
   //7 syl
-var a13_7 = ["illuminating mesh body", "mouth-to-mouth / mouth-on-mouth twin", "worn out soles glitter and stomp", "", ""];
+var a13_7 = ["illuminating mesh body", "mouth-to-mouth / mouth-on-mouth twin", "worn out soles glitter and stomp",];
 
   //5_2 syl
 var a13_2_5 = ["fit check juice bar hype", "cokey bathroom bang", "like sage and poppers", "no cell juice, phone home", "smoke hair / no voice AM"];
