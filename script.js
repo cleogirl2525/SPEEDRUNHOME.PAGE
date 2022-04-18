@@ -183,26 +183,25 @@ var a17_2_5 = ["full coverage top", "high leg bikini", "speedo fantasy", "waters
 
 /////////////////////////
 //haiku array for april 18, hike
-  //5 syl
-var a18_5 = ["", "", "", "", ""];
+ //5 syl
+var a17_5 = ["the splish splash wet kind", "no running baby", "hot lifeguard crush life", "cabana cuties", "bare feet only here"];
 
   //7 syl
-var a18_7 = ["", "", "", "", ""];
+var a17_7 = ["slip slide goes the bottom and", "deep water, high drama slow", "lemon juice blonde hair once", "loud girls, sexy in the shade", "concrete ripple under foot"];
 
   //5_2 syl
-var a18_2_5 = ["", "", "", "", ""];
-
+var a17_2_5 = ["full coverage top", "high leg bikini", "speedo fantasy", "waterside cocktail", "salty manicure"];
 
 /////////////////////////
 //haiku array for april 19
-  //5 syl
-var a19_5 = ["", "", "", "", ""];
+ //5 syl
+var a17_5 = ["the splish splash wet kind", "no running baby", "hot lifeguard crush life", "cabana cuties", "bare feet only here"];
 
   //7 syl
-var a19_7 = ["", "", "", "", ""];
+var a17_7 = ["slip slide goes the bottom and", "deep water, high drama slow", "lemon juice blonde hair once", "loud girls, sexy in the shade", "concrete ripple under foot"];
 
   //5_2 syl
-var a19_2_5 = ["", "", "", "", ""];
+var a17_2_5 = ["full coverage top", "high leg bikini", "speedo fantasy", "waterside cocktail", "salty manicure"];
 
 
 /////////////////////////
