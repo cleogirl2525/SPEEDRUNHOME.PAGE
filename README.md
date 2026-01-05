@@ -3,7 +3,7 @@
 
 <b>SPEEDRUNHOME.PAGE (2022)</b>
 <br>By SHAWNÉ MICHAEALIN HOLLOWAY<br>
-With development support from XXXXXXXX.<br>
+With development support from KT DUFFY.<br>
 On view APR 7 - MAY 7, 2022.<br>
 
 
