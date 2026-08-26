@@ -6,44 +6,44 @@ const todayDate = new Date();
 
 
 //test test test var for current date prior to launch -remove at launch
-var now = new Date('April 5, 2022 00:00:01');
+var now = new Date('August 25, 2026 00:00:01');
 
 
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // vars for each date starting at midnight + - - 01
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-var april_7 = new Date('Novemeber 24, 2023 00:00:01');
-var april_8 = new Date('Novemeber 25, 2023 00:00:01');
-var april_9 = new Date('Novemeber 26, 2023 00:00:01');
-var april_10 = new Date('Novemeber 27, 2023 00:00:01');
-var april_11 = new Date('Novemeber 28, 2023 00:00:01');
-var april_12 = new Date('Novemeber 29, 2023 00:00:01');
-var april_13 = new Date('Novemeber 30, 2023 00:00:01');
-var april_14 = new Date('December 1, 2023 00:00:01');
-var april_15 = new Date('December 2, 2023 00:00:01');
-var april_16 = new Date('December 3, 2023 00:00:01');
-var april_17 = new Date('December 4, 2023 00:00:01');
-var april_18 = new Date('December 5, 2023 00:00:01');
-var april_19 = new Date('December 6, 2023 00:00:01');
-var april_20 = new Date('December 7, 2023 00:00:01');
-var april_21 = new Date('December 8, 2023 00:00:01');
-var april_22 = new Date('December 9, 2023 00:00:01');
-var april_23 = new Date('December 10, 2023 00:00:01');
-var april_24 = new Date('December 11, 2023 00:00:01');
-var april_25 = new Date('December 12, 2023 00:00:01');
-var april_26 = new Date('December 13, 2023 00:00:01');
-var april_27 = new Date('December 14, 20232 00:00:01');
-var april_28 = new Date('December 15, 2023 00:00:01');
-var april_29 = new Date('December 16, 2023 00:00:01');
-var april_30 = new Date('December 17, 2023 00:00:01');
-var may_1 = new Date('December 18, 2023 00:00:01');
-var may_2 = new Date('December 19, 2023 00:00:01');
-var may_3 = new Date('December 20, 2023 00:00:01');
-var may_4 = new Date('December 21, 2023 00:00:01');
-var may_5 = new Date('December 22, 2023 00:00:01');
-var may_6 = new Date('December 23, 2023 00:00:01');
-var may_7 = new Date('December 24, 2023 00:00:01');
+var april_7 = new Date('August 24, 2026 00:00:01');
+var april_8 = new Date('August 25, 2026 00:00:01');
+var april_9 = new Date('August 26, 2026 00:00:01');
+var april_10 = new Date('August 27, 2026 00:00:01');
+var april_11 = new Date('August 28, 2026 00:00:01');
+var april_12 = new Date('August 29, 2026 00:00:01');
+var april_13 = new Date('August 30, 2026 00:00:01');
+var april_14 = new Date('August 31, 2026 00:00:01');
+var april_15 = new Date('September 1, 2026 00:00:01');
+var april_16 = new Date('September 2, 2026 00:00:01');
+var april_17 = new Date('September 3, 2026 00:00:01');
+var april_18 = new Date('September 4, 2026 00:00:01');
+var april_19 = new Date('September 5, 2026 00:00:01');
+var april_20 = new Date('September 6, 2026 00:00:01');
+var april_21 = new Date('September 7, 2026 00:00:01');
+var april_22 = new Date('September 8, 2026 00:00:01');
+var april_23 = new Date('September 9, 2026 00:00:01');
+var april_24 = new Date('September 10, 2026 00:00:01');
+var april_25 = new Date('September 11, 2026 00:00:01');
+var april_26 = new Date('September 12, 2026 00:00:01');
+var april_27 = new Date('September 13, 2026 00:00:01');
+var april_28 = new Date('September 14, 2026 00:00:01');
+var april_29 = new Date('September 15, 2026 00:00:01');
+var april_30 = new Date('September 16, 2026 00:00:01');
+var may_1 = new Date('September 17, 2026 00:00:01');
+var may_2 = new Date('September 18, 2026 00:00:01');
+var may_3 = new Date('September 29, 2026 00:00:01');
+var may_4 = new Date('September 22, 2026 00:00:01');
+var may_5 = new Date('September 21, 2026 00:00:01');
+var may_6 = new Date('September 22, 2026 00:00:01');
+var may_7 = new Date('September 24, 2026 00:00:01');
 
 
 
