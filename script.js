@@ -100,7 +100,7 @@ var a10_2_5 = ["super socket queer", "recharge us, please god"];
 /////////////////////////
 //haiku array for april 11, grocery
   //5 syl
-var a11_5 = ["asile4asile", "singles market blues", "we belong shopping?", "alumineum bae", "apples, oranges, you"];
+var a11_5 = ["asile4asile", "singles market blues", "we belong shopping?", "aluminum bae", "apples, oranges, you"];
 
   //7 syl
 var a11_7 = ["hiding sugar under meat", "walk across town for one chance", "please dont' say its all we do", "wash me, spray me, please de-wax", "what is a diet without"];
@@ -136,37 +136,37 @@ var a13_2_5 = ["fit check juice bar hype", "cokey bathroom bang", "like sage and
 /////////////////////////
 //haiku array for april 14, hair salon
   //5 syl
-var a14_5 = ["", "", "", "", ""];
+var a14_5 = ["bayYang introvert", "curl cream QTbae", "comm'earNsiddown", "big chop overdue", "manic panic cunt"];
 
   //7 syl
-var a14_7 = ["", "", "", "", ""];
+var a14_7 = ["only nail techs hold my hand", "not a real blonde like dolly", "when i bought them i bought me", "bathroom lye tub old head dream"];
 
   //5_2 syl
-var a14_2_5 = ["", "", "", "", ""];
+var a14_2_5 = ["heat flash dryer hood", "nivea mama", "le ticket metro", "lash tech steals a kiss", "retinol tret purse"];
 
 
 /////////////////////////
 //haiku array for april 15
   //5 syl
-var a15_5 = ["", "", "", "", ""];
+var a15_5 = ["cumsistancies sin", "ril'dup rep range r'dy", "pull up bar meet cute", "muscle mommy drag", "oceanic effort"];
 
   //7 syl
-var a15_7 = ["", "", "", "", ""];
+var a15_7 = ["spot me for a protien kiss", "old school sweatbox fantasy", "yeast infections are ok", "microbial fellowship", "iron room dust grey dark matter"];
 
   //5_2 syl
-var a15_2_5 = ["", "", "", "", ""];
+var a15_2_5 = ["lifing 10 x me", "powerlift barbie", "powerbuilder pup", "hot girl no shirt bench", "ass sweat pr!? friends!"];
 
 
 /////////////////////////
 //haiku array for april 16
   //5 syl
-var a16_5 = ["", "", "", "", ""];
+var a16_5 = ["girls room smoking cough", "movie day tardy", "no ideally", "foot tap vampire", "jacket gambeling"];
 
   //7 syl
-var a16_7 = ["", "", "", "", ""];
+var a16_7 = ["top perfect them arrangemnts", "grade slut for the b-", "fingertip measuingstick", "reading counts book club winner", "front row trouble kid love letter"];
 
   //5_2 syl
-var a16_2_5 = ["", "", "", "", ""];
+var a16_2_5 = ["maryjane step count", "parkinglot salon", "keychain engagement", "white out nail coture", "mom said no xanga"];
 
 
 /////////////////////////
@@ -184,24 +184,23 @@ var a17_2_5 = ["full coverage top", "high leg bikini", "speedo fantasy", "waters
 /////////////////////////
 //haiku array for april 18, hike
  //5 syl
-var a17_5 = ["the splish splash wet kind", "no running baby", "hot lifeguard crush life", "cabana cuties", "bare feet only here"];
+var a17_5 = ["step trot until true", "north, developing", "landing in what's soft", "softing in what's gone"];
 
   //7 syl
-var a17_7 = ["slip slide goes the bottom and", "deep water, high drama slow", "lemon juice blonde hair once", "loud girls, sexy in the shade", "concrete ripple under foot"];
+var a17_7 = ["winding down your forwards, home", "tracing her double track back", "star path takes legendary", "loving sinking canopy", "mirror harvest moonlustre"];
 
   //5_2 syl
-var a17_2_5 = ["full coverage top", "high leg bikini", "speedo fantasy", "waterside cocktail", "salty manicure"];
+var a17_2_5 = ["aFX'd ankle", "access road ready real", "zombie ready real", "never see me twice"];
 
 /////////////////////////
-//haiku array for april 19
+//haiku array for april 19, cards
  //5 syl
-var a17_5 = ["the splish splash wet kind", "no running baby", "hot lifeguard crush life", "cabana cuties", "bare feet only here"];
-
+var a17_5 = ["", "", "", "", ""];
   //7 syl
-var a17_7 = ["slip slide goes the bottom and", "deep water, high drama slow", "lemon juice blonde hair once", "loud girls, sexy in the shade", "concrete ripple under foot"];
+var a17_7 = ["", "", "", "", ""];
 
   //5_2 syl
-var a17_2_5 = ["full coverage top", "high leg bikini", "speedo fantasy", "waterside cocktail", "salty manicure"];
+var a17_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
