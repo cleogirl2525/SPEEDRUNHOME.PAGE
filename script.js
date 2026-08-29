@@ -253,61 +253,61 @@ var a23_2_5 = ["last them standing coin", "designated crush", "queer-operative",
 /////////////////////////
 //haiku array for april 24 theatre
   //5 syl
-var a24_5 = ["", "", "", "", ""];
+var a24_5 = ["sing to night alone", "dresses are noise toys", "middle seat love life", "modern recliner", "kiss me in the light"];
 
   //7 syl
-var a24_7 = ["", "", "", "", ""];
+var a24_7 = ["pinholes mean run in the booth", "for the sticky floor quotient", "reseting on croptop laurels", "witching hour drive in pop", "touching the crumbs in my shirt"];
 
   //5_2 syl
-var a24_2_5 = ["", "", "", "", ""];
+var a24_2_5 = ["i dont understand", "dreamboat varsity", "12.50 pricing", "michael myers bestie", "row : hoop & hollar"];
 
 
 /////////////////////////
 //haiku array for april 25 studio space
   //5 syl
-var a25_5 = ["", "", "", "", ""];
+var a25_5 = ["post-allthisbullshit", "wooden stools fuck", "fucking giant messes", "no one is allowed", "hang it up right now"];
 
   //7 syl
-var a25_7 = ["", "", "", "", ""];
+var a25_7 = ["encumbered by lonely gates", "air supressor sized big sigh", "manic pixie dream ball genZ", "careening as hopefully wish", "chucking real work under wrap"];
 
   //5_2 syl
-var a25_2_5 = ["", "", "", "", ""];
+var a25_2_5 = ["bunnies of not shitty dust", "organization", "dont touch any stupid pile", "damnation icing", "sunlight nutrition"];
 
 
 /////////////////////////
 //haiku array for april 26 train
   //5 syl
-var a26_5 = ["", "", "", "", ""];
+var a26_5 = ["turning love leaving", "mountians behind night", "bad booty lands hard", "train chug beer chug home", "train tug beer chug home"];
 
   //7 syl
-var a26_7 = ["", "", "", "", ""];
+var a26_7 = ["bet ticket money blackjack", "elders are your travel guides", "hand wash wash seesaw footpump drip", "showering is not worth it", "grateful for montanas void"];
 
   //5_2 syl
-var a26_2_5 = ["", "", "", "", ""];
+var a26_2_5 = ["tarot poker fare", "sugar packet friend", "on-off tourgide", "observation crib", "sleeper car sexy"];
 
 
 /////////////////////////
 //haiku array for april 27 pool table
   //5 syl
-var a27_5 = ["", "", "", "", ""];
+var a27_5 = ["bad felt, felt me scratch", "underhandedness", "cowboy poolstick", "mister cue mister", "sticky thigh sweat tell"];
 
   //7 syl
-var a27_7 = ["", "", "", "", ""];
+var a27_7 = ["whiskey scratch off flavored win", "elated to shake it here", "hungry learning the numbers", "stealing touches between checks", "i wasn't supposed to know"];
 
   //5_2 syl
-var a27_2_5 = ["", "", "", "", ""];
+var a27_2_5 = ["my hole on your one?", "wood panel midwest hang", "mr. no more shots", "tears tears tears and more", "8ball good luck charm kissy pout"];
 
 
 /////////////////////////
 //haiku array for april 28 skate
   //5 syl
-var a28_5 = ["", "", "", "", ""];
+var a28_5 = ["living loud as shit", "revealed & released", "institional", "bratZ hero 5", "man just 1 pepsi"];
 
   //7 syl
-var a28_7 = ["", "", "", "", ""];
+var a28_7 = ["relevance demands trusting", "concrete princes castles break", "kickflip detention romance", "kick push broom closet makeout", "BMX is not a job"];
 
   //5_2 syl
-var a28_2_5 = ["", "", "", "", ""];
+var a28_2_5 = ["hum America", "air solo joan jett", "tell white spike belt me", "baby named volcom", "a canvas spilled here"];
 
 
 /////////////////////////
