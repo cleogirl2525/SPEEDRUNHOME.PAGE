@@ -204,7 +204,7 @@ var a17_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 20
+//haiku array for april 20 clothing store 
   //5 syl
 var a20_5 = ["", "", "", "", ""];
 
@@ -216,7 +216,7 @@ var a20_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 21
+//haiku array for april 21 second life 
   //5 syl
 var a21_5 = ["", "", "", "", ""];
 
@@ -228,7 +228,7 @@ var a21_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 22
+//haiku array for april 22 bondage
   //5 syl
 var a22_5 = ["", "", "", "", ""];
 
@@ -240,7 +240,7 @@ var a22_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 23
+//haiku array for april 23 cards
   //5 syl
 var a23_5 = ["", "", "", "", ""];
 
@@ -252,7 +252,7 @@ var a23_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 24
+//haiku array for april 24 theatre
   //5 syl
 var a24_5 = ["", "", "", "", ""];
 
@@ -264,7 +264,7 @@ var a24_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 25
+//haiku array for april 25 studio space
   //5 syl
 var a25_5 = ["", "", "", "", ""];
 
