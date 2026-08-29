@@ -195,61 +195,60 @@ var a17_2_5 = ["aFX'd ankle", "access road ready real", "zombie ready real", "ne
 /////////////////////////
 //haiku array for april 19, cards 
  //5 syl
-var a17_5 = ["", "", "", "", ""];
+var a17_5 = ["char sheet 24 g3t", "ship it if u dare", "outCUMz r rewards", "ace high or fool low", "tarot in those shoes"];
   //7 syl
-var a17_7 = ["", "", "", "", ""];
+var a17_7 = ["nowhere backdoor sidequesting", "lucky PJs but no bra", "barely there boobsweat gets ahead", "vs eyefuck vs draw"];
 
   //5_2 syl
-var a17_2_5 = ["", "", "", "", ""];
+var a17_2_5 = ["last them standing coin", "designated crush", "queer-operative", "teeth grit dice throw down", "crush on the dealer"];
 
 
 /////////////////////////
 //haiku array for april 20 clothing store 
   //5 syl
-var a20_5 = ["", "", "", "", ""];
+var a20_5 = ["try me on me on", "all my blues in one", "elders cant punk it", "seven tags til seen", "hated the poly fight"];
 
   //7 syl
-var a20_7 = ["", "", "", "", ""];
+var a20_7 = ["florescent jelly wish self", "brisstle purse force chanel dior okaiii", "ink tag explosion patch cover", "want what desire looking", "color theory mamabear"];
 
   //5_2 syl
-var a20_2_5 = ["", "", "", "", ""];
+var a20_2_5 = ["peep toe wedge nightmare", "swimming in becky", "miss you reprise - rack'd", "tripping over her", "negitive charge backs"];
 
 
 /////////////////////////
 //haiku array for april 21 second life 
   //5 syl
-var a21_5 = ["", "", "", "", ""];
+var a21_5 = ["pixel fall, baby birth", "augment friends neverwhere", "round square touch entered", "recorded vessel", "transparency burst"];
 
   //7 syl
-var a21_7 = ["", "", "", "", ""];
+var a21_7 = ["out of sync macro lip lock", "gutter glitch slurp bussdown babe", "nsfw digi wheat paste", "call ring msg bbm", "tea never spills fr here"];
 
   //5_2 syl
-var a21_2_5 = ["", "", "", "", ""];
+var a21_2_5 = ["tracing and tracking", "disintegration", "soaring past square clouds", "you're not running here", "tepid maintaience"];
 
 
 /////////////////////////
 //haiku array for april 22 bondage
   //5 syl
-var a22_5 = ["", "", "", "", ""];
+var a22_5 = ["dormire sin ti", "unstill cookie treat", "lisa frank keepr", "secret trapper line", "hand never left cheek"];
 
   //7 syl
-var a22_7 = ["", "", "", "", ""];
+var a22_7 = ["mistle toe jute romp", "whats tenderizing comfort", "after deliciousness here", "in arms, my lovely dearest", "artery2artery"];
 
   //5_2 syl
-var a22_2_5 = ["", "", "", "", ""];
+var a22_2_5 = ["peluche in arms", "hot girl al forno", "2 gURlz 1 green lite", "making quite space", "headed into self"];
 
 
 /////////////////////////
 //haiku array for april 23 cards
   //5 syl
-var a23_5 = ["", "", "", "", ""];
+var a23_5 = ["char sheet 24 g3t", "ship it if u dare", "outCUMz r rewards", "ace high or fool low", "tarot in those shoes"];
 
   //7 syl
-var a23_7 = ["", "", "", "", ""];
+var a23_7 = ["nowhere backdoor sidequesting", "lucky PJs but no bra", "barely there boobsweat gets ahead", "vs eyefuck vs draw"];
 
   //5_2 syl
-var a23_2_5 = ["", "", "", "", ""];
-
+var a23_2_5 = ["last them standing coin", "designated crush", "queer-operative", "teeth grit dice throw down", "crush on the dealer"];
 
 /////////////////////////
 //haiku array for april 24 theatre
