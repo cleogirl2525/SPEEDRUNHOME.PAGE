@@ -193,7 +193,7 @@ var a17_7 = ["winding down your forwards, home", "tracing her double track back"
 var a17_2_5 = ["aFX'd ankle", "access road ready real", "zombie ready real", "never see me twice"];
 
 /////////////////////////
-//haiku array for april 19, cards
+//haiku array for april 19, cards 
  //5 syl
 var a17_5 = ["", "", "", "", ""];
   //7 syl
@@ -276,7 +276,7 @@ var a25_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 26
+//haiku array for april 26 train
   //5 syl
 var a26_5 = ["", "", "", "", ""];
 
@@ -288,7 +288,7 @@ var a26_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 27
+//haiku array for april 27 pool table
   //5 syl
 var a27_5 = ["", "", "", "", ""];
 
@@ -300,7 +300,7 @@ var a27_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 28
+//haiku array for april 28 skate
   //5 syl
 var a28_5 = ["", "", "", "", ""];
 
@@ -312,7 +312,7 @@ var a28_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 29
+//haiku array for april 29 carnival
   //5 syl
 var a29_5 = ["", "", "", "", ""];
 
@@ -324,7 +324,7 @@ var a29_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for april 30
+//haiku array for april 30 airport
   //5 syl
 var a30_5 = ["", "", "", "", ""];
 
@@ -336,7 +336,7 @@ var a30_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for may 1
+//haiku array for may 1 arcade
   //5 syl
 var m1_5 = ["", "", "", "", ""];
 
@@ -348,7 +348,7 @@ var m1_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for may 2
+//haiku array for may 2 park
   //5 syl
 var m2_5 = ["", "", "", "", ""];
 
@@ -360,7 +360,7 @@ var m2_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for may 3
+//haiku array for may 3 beach
   //5 syl
 var m3_5 = ["", "", "", "", ""];
 
@@ -372,7 +372,7 @@ var m3_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for may 4
+//haiku array for may 4 bus
   //5 syl
 var m4_5 = ["", "", "", "", ""];
 
@@ -384,7 +384,7 @@ var m4_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for may 6
+//haiku array for may 6 webcam
   //5 syl
 var m6_5 = ["", "", "", "", ""];
 
@@ -396,7 +396,7 @@ var m6_2_5 = ["", "", "", "", ""];
 
 
 /////////////////////////
-//haiku array for may 7
+//haiku array for may 7 last
   //5 syl
 var m7_5 = ["", "", "", "", ""];
 
