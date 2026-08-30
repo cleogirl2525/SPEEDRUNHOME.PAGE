@@ -355,47 +355,47 @@ var m2_5 = ["paris dragdodge ball", "unaccompanied", "tag chip hug wood jump", "
 var m2_7 = ["never too old for cartwheels", "girlfriend's harassed by park crows", "cookies tied in a blue cloth", "vertigo but out wine kind", "salubrious for now"];
 
   //5_2 syl
-var m2_2_5 = ["puppy sweater girl", "bus driver's early!", "tears 4 her skinned knee", "magic school nurse", "timeout fart corner"];
+var m2_2_5 = ["puppy sweater girl", "bus driver's early!", "tears 4 her skinned knee", "magic school nurse", "timeout sigh corner"];
 
 
 /////////////////////////
 //haiku array for may 3 beach
   //5 syl
-var m3_5 = ["", "", "", "", ""];
+var m3_5 = ["tanline pantyline", "rehydration face", "comp hobby horsefly", "wag sandy pup tail", "proper dog beach bark"];
 
   //7 syl
-var m3_7 = ["", "", "", "", ""];
+var m3_7 = ["black goth party bucket hat", "pirate play river floaty treasure hunt", "cooler picnic gourmet beat", "floppy cheese stick UV death", "aloe backrubs before sex"];
 
   //5_2 syl
-var m3_2_5 = ["", "", "", "", ""];
+var m3_2_5 = ["wave innudation", "soggy boob just right", "juicy lemon blonde", "lsd curve spark", "oak st backpack gurlz"];
 
 
 /////////////////////////
 //haiku array for may 4 bus
   //5 syl
-var m4_5 = ["", "", "", "", ""];
+var m4_5 = ["pink 18 wheeler", "pull me stop hustler", "stranger shoulder sleep", "love is excuse me", "drive me to please me"];
 
   //7 syl
-var m4_7 = ["", "", "", "", ""];
+var m4_7 = ["solo-rider/me-ward+bound", "permission to ride, fly, fail", "cta hybridbiome", "truth or dare front pass car trick", "red due red due red due red"];
 
   //5_2 syl
-var m4_2_5 = ["", "", "", "", ""];
+var m4_2_5 = ["commuter ascetic", "rubber sweetie go", "missed my stop for you", "sundays for bikes", "rain on bus windows"];
 
 
 /////////////////////////
-//haiku array for may 6 webcam
+//haiku array for may 6 club
   //5 syl
-var m6_5 = ["", "", "", "", ""];
+var m6_5 = ["clit club blueprint=exists", "jean jacket piss rag", "fucking the club gard", "monochrome fit yes", "shh no fist club chat"];
 
   //7 syl
-var m6_7 = ["", "", "", "", ""];
+var m6_7 = ["jacob's note: effervescence", "second right red bandana", "banana soda k break", "berlin sparkly tea time bang", "2gurls 1tresor trip"];
 
   //5_2 syl
-var m6_2_5 = ["", "", "", "", ""];
+var m6_2_5 = ["&we fall all speed", "&we heel all well ", "breaking in our timbs", "under disco moons", "on LED mars"];
 
 
 /////////////////////////
-//haiku array for may 7 last
+//haiku array for may 7 air
   //5 syl
 var m7_5 = ["", "", "", "", ""];
 
