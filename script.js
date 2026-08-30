@@ -20,7 +20,7 @@ var april_10 = new Date('August 27, 2026 00:00:01');
 var april_11 = new Date('August 28, 2026 00:00:01');
 var april_12 = new Date('August 22, 2026 00:00:01');
 var april_13 = new Date('August 29, 2026 00:00:01');
-var april_14 = new Date('August 31, 2026 00:00:01');
+var april_14 = new Date('August 30, 2026 00:00:01');
 var april_15 = new Date('September 1, 2026 00:00:01');
 var april_16 = new Date('September 2, 2026 00:00:01');
 var april_17 = new Date('September 3, 2026 00:00:01');
@@ -142,7 +142,7 @@ var a14_5 = ["bayYang introvert", "curl cream QTbae", "comm'earNsiddown", "big c
 var a14_7 = ["only nail techs hold my hand", "not a real blonde like dolly", "when i bought them i bought me", "bathroom lye tub old head dream"];
 
   //5_2 syl
-var a14_2_5 = ["heat flash dryer hood", "nivea mama", "le ticket metro", "lash tech steals a kiss", "retinol tret purse"];
+var a14_2_5 = ["heat flash dryer hood", "a nivea mama", "le ticket metro", "lash tech steals a kiss", "retinol tret purse"];
 
 
 /////////////////////////
