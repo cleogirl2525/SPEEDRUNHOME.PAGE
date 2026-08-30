@@ -283,7 +283,7 @@ var a26_5 = ["turning love leaving", "mountians behind night", "bad booty lands 
 var a26_7 = ["bet ticket money blackjack", "elders are your travel guides", "hand wash wash seesaw footpump drip", "showering is not worth it", "grateful for montanas void"];
 
   //5_2 syl
-var a26_2_5 = ["tarot poker fare", "sugar packet friend", "on-off tourgide", "observation crib", "sleeper car sexy"];
+var a26_2_5 = ["tarot poker fare", "sugar packet friend", "on-off tourguide", "observation crib", "sleeper car sexy"];
 
 
 /////////////////////////
@@ -367,7 +367,7 @@ var m3_5 = ["tanline pantyline", "rehydration face", "comp hobby horsefly", "wag
 var m3_7 = ["black goth party bucket hat", "pirate play river floaty treasure hunt", "cooler picnic gourmet beat", "floppy cheese stick UV death", "aloe backrubs before sex"];
 
   //5_2 syl
-var m3_2_5 = ["wave innudation", "soggy boob just right", "juicy lemon blonde", "lsd curve spark", "oak st backpack gurlz"];
+var m3_2_5 = ["wave inundation", "soggy boob just right", "juicy lemon blonde", "lsd curve spark", "oak st backpack gurlz"];
 
 
 /////////////////////////
