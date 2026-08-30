@@ -313,37 +313,37 @@ var a28_2_5 = ["hum America", "air solo joan jett", "tell white spike belt me", 
 /////////////////////////
 //haiku array for april 29 carnival
   //5 syl
-var a29_5 = ["", "", "", "", ""];
+var a29_5 = ["roller coaster royce", "deep fried candy bae", "funhouse is daily", "for clowning causes", "works rides over night"];
 
   //7 syl
-var a29_7 = ["", "", "", "", ""];
+var a29_7 = ["minimum wage halloween", "breaking into public life", "monster girl cant take mask off", "unhampered gears and hormones", "portioned by subgrouping fates"];
 
   //5_2 syl
-var a29_2_5 = ["", "", "", "", ""];
+var a29_2_5 = ["25 bottle teddy", "boardwalk taffy kiss", "make up trailer sex", "behind the air pump", "temporary risk"];
 
 
 /////////////////////////
 //haiku array for april 30 airport
   //5 syl
-var a30_5 = ["", "", "", "", ""];
+var a30_5 = ["hug me middle seat", "accidental brush", "witheld near longing", "lullyby hum jet", "ballet award pointe"];
 
   //7 syl
-var a30_7 = ["", "", "", "", ""];
+var a30_7 = ["weeping delivered por cloud", "home? commercial bird daddy", "ritual leg stretch giddy up", "travel single, die single", "enticing jetstream aside"];
 
   //5_2 syl
-var a30_2_5 = ["", "", "", "", ""];
+var a30_2_5 = ["cUmfort class upgrade", "4ambien glow", "tarmac caffiene pump", "jack n broken coke", "only lav fans trip"];
 
 
 /////////////////////////
 //haiku array for may 1 arcade
   //5 syl
-var m1_5 = ["", "", "", "", ""];
+var m1_5 = ["winnergasms", "quarter token boy", "loser pizza sweats", "jump peach queen cart", "still there? game play stall"];
 
   //7 syl
-var m1_7 = ["", "", "", "", ""];
+var m1_7 = ["zombies are like hand holding", "when fps are chill zone", "reimagine-ctrl-z", "respawn?109876...", "gameovergameovergame"];
 
   //5_2 syl
-var m1_2_5 = ["", "", "", "", ""];
+var m1_2_5 = ["LR UPDN XY ME", "skill points R for evil", "ship every knight", "1 of your joysticks", "start screen starting me"];
 
 
 /////////////////////////
