@@ -56,10 +56,10 @@ var may_7 = new Date('September 24, 2026 00:00:01');
 var a7_5 = ["seeking sleeping here", "broken bedframe babe", "first day living lighter", "diseased wandering", "the lost key feeling"];
 
   //7 syl
-var a7_7 = ["i'm so glad to know about lavander", "backpack turned two bedroom joint", "puked worry on the terace", "upper guts library", "ascending truly foreward"];
+var a7_7 = ["i'm so glad to know about lavender", "backpack turned two bedroom joint", "puked worry on the terrace", "upper guts library", "ascending truly foreword"];
 
     //5_2 syl
-var a7_2_5 =  ["lace my queer night's rest", "woship my doompiles", "sick to live confined", "spitting hot steam", "i cant die in bed"];
+var a7_2_5 =  ["lace my queer night's rest", "worship my doompiles", "sick to live confined", "spitting hot steam", "i cant die in bed"];
 
 
 /////////////////////////
@@ -88,7 +88,7 @@ var a9_2_5 = ["my mouth wide open", "i almost fell in", "hands keep to themselve
 /////////////////////////
 //haiku array for april 10, bedroom
   //5 syl
-var a10_5 = ["squeek room bed power", "queer night stands onece were"];
+var a10_5 = ["squeek room bed power", "queer night stands once were"];
 
   //7 syl
 var a10_7 = ["one night stand roulette gay", "light and vibration central" ];
