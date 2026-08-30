@@ -18,8 +18,8 @@ var april_8 = new Date('August 25, 2026 00:00:01');
 var april_9 = new Date('August 26, 2026 00:00:01');
 var april_10 = new Date('August 27, 2026 00:00:01');
 var april_11 = new Date('August 28, 2026 00:00:01');
-var april_12 = new Date('August 29, 2026 00:00:01');
-var april_13 = new Date('August 30, 2026 00:00:01');
+var april_12 = new Date('August 22, 2026 00:00:01');
+var april_13 = new Date('August 29, 2026 00:00:01');
 var april_14 = new Date('August 31, 2026 00:00:01');
 var april_15 = new Date('September 1, 2026 00:00:01');
 var april_16 = new Date('September 2, 2026 00:00:01');
@@ -349,13 +349,13 @@ var m1_2_5 = ["LR UPDN XY ME", "skill points R for evil", "ship every knight", "
 /////////////////////////
 //haiku array for may 2 park
   //5 syl
-var m2_5 = ["", "", "", "", ""];
+var m2_5 = ["paris dragdodge ball", "unaccompanied", "tag chip hug wood jump", "inside recess nerd", "LIEberry introvert"];
 
   //7 syl
-var m2_7 = ["", "", "", "", ""];
+var m2_7 = ["never too old for cartwheels", "girlfriend's harassed by park crows", "cookies tied in a blue cloth", "vertigo but out wine kind", "salubrious for now"];
 
   //5_2 syl
-var m2_2_5 = ["", "", "", "", ""];
+var m2_2_5 = ["puppy sweater girl", "bus driver's early!", "tears 4 her skinned knee", "magic school nurse", "timeout fart corner"];
 
 
 /////////////////////////
