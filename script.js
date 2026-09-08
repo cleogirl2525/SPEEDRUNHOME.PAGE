@@ -5,48 +5,6 @@
 const todayDate = new Date();
 
 
-//test test test var for current date prior to launch -remove at launch
-var now = new Date('August 25, 2026 00:00:01');
-
-
-
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-// vars for each date starting at midnight + - - 01
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-var april_7 = new Date('August 24, 2026 00:00:01');
-var april_8 = new Date('August 25, 2026 00:00:01');
-var april_9 = new Date('August 26, 2026 00:00:01');
-var april_10 = new Date('August 27, 2026 00:00:01');
-var april_11 = new Date('August 28, 2026 00:00:01');
-var april_12 = new Date('August 22, 2026 00:00:01');
-var april_13 = new Date('August 29, 2026 00:00:01');
-var april_14 = new Date('August 30, 2026 00:00:01');
-var april_15 = new Date('September 1, 2026 00:00:01');
-var april_16 = new Date('September 2, 2026 00:00:01');
-var april_17 = new Date('September 3, 2026 00:00:01');
-var april_18 = new Date('September 4, 2026 00:00:01');
-var april_19 = new Date('September 5, 2026 00:00:01');
-var april_20 = new Date('September 6, 2026 00:00:01');
-var april_21 = new Date('September 7, 2026 00:00:01');
-var april_22 = new Date('September 8, 2026 00:00:01');
-var april_23 = new Date('September 9, 2026 00:00:01');
-var april_24 = new Date('September 10, 2026 00:00:01');
-var april_25 = new Date('September 11, 2026 00:00:01');
-var april_26 = new Date('September 12, 2026 00:00:01');
-var april_27 = new Date('September 13, 2026 00:00:01');
-var april_28 = new Date('September 14, 2026 00:00:01');
-var april_29 = new Date('September 15, 2026 00:00:01');
-var april_30 = new Date('September 16, 2026 00:00:01');
-var may_1 = new Date('September 17, 2026 00:00:01');
-var may_2 = new Date('September 18, 2026 00:00:01');
-var may_3 = new Date('September 29, 2026 00:00:01');
-var may_4 = new Date('September 22, 2026 00:00:01');
-var may_5 = new Date('September 21, 2026 00:00:01');
-var may_6 = new Date('September 22, 2026 00:00:01');
-var may_7 = new Date('September 24, 2026 00:00:01');
-
-
-
 //!!!!!!!!!!!!!!!!!!!!!!!
 // arrays for each date
 //!!!!!!!!!!!!!!!!!!!!!!!
@@ -430,39 +388,10 @@ $( document ).ready(function() {
  $("#circle").click(function(){
   $("#modal").slideToggle();
  });
-
-
-
-
-  ////////////////////////////////////
-  // test test test - remove on launch 
-  // tests for current date
-  if (
-      now.getDate() === todayDate.getDate() &&
-      now.getMonth() === todayDate.getMonth() &&
-      now.getYear() === todayDate.getYear()
-    ) {
-        var randomAnswer1 = a7_5[Math.floor(Math.random() * a7_5.length)];
-        $('#lineOne').html(randomAnswer1);
-        var randomAnswer2 = a7_7[Math.floor(Math.random() * a7_5.length)];
-        $('#lineTwo').html(randomAnswer2);
-        var randomAnswer3 = a7_2_5[Math.floor(Math.random() * a7_5.length)];
-        $('#lineThree').html(randomAnswer3);
-        // $('test-Vid').show();
-        $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7').hide(); 
-    } 
-  // test test test - remove on launch 
-  ////////////////////////////////////
-
-  
   
   ///////////////////////////  
   //april 7
-  if (
-      april_7.getDate() === todayDate.getDate() &&
-      april_7.getMonth() === todayDate.getMonth() &&
-      april_7.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 1) {
         var randomAnswer1 = a7_5[Math.floor(Math.random() * a7_5.length)];
         $('#lineOne').html(randomAnswer1);
         var randomAnswer2 = a7_7[Math.floor(Math.random() * a7_5.length)];
@@ -478,11 +407,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 8
-  if (
-      april_8.getDate() === todayDate.getDate() &&
-      april_8.getMonth() === todayDate.getMonth() &&
-      april_8.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 2) {
         var randomAnswer1 = a8_5[Math.floor(Math.random() * a8_5.length)];
         $('#lineOne').html(randomAnswer1);
         var randomAnswer2 = a8_7[Math.floor(Math.random() * a8_5.length)];
@@ -498,11 +423,7 @@ $( document ).ready(function() {
     
 ///////////////////////////  
   //april 9
-  if (
-      april_9.getDate() === todayDate.getDate() &&
-      april_9.getMonth() === todayDate.getMonth() &&
-      april_9.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 3) {
         var randomAnswer1 = a9_5[Math.floor(Math.random() * a9_5.length)];
         $('#lineOne').html(randomAnswer1);
         var randomAnswer2 = a9_7[Math.floor(Math.random() * a9_5.length)];
@@ -518,11 +439,7 @@ $( document ).ready(function() {
     
   ///////////////////////////  
   //april 10
-  if (
-      april_10.getDate() === todayDate.getDate() &&
-      april_10.getMonth() === todayDate.getMonth() &&
-      april_10.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 4) {
         var randomAnswer1 = a10_5[Math.floor(Math.random() * a10_5.length)];
         $('#lineOne').html(randomAnswer1);
         var randomAnswer2 = a10_7[Math.floor(Math.random() * a10_5.length)];
@@ -537,11 +454,7 @@ $( document ).ready(function() {
 
   ///////////////////////////  
   //april 11
-  if (
-      april_11.getDate() === todayDate.getDate() &&
-      april_11.getMonth() === todayDate.getMonth() &&
-      april_11.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 5) {
       var randomAnswer1 = a11_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a11_7[Math.floor(Math.random() * a10_5.length)];
@@ -557,11 +470,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 12
-  if (
-      april_12.getDate() === todayDate.getDate() &&
-      april_12.getMonth() === todayDate.getMonth() &&
-      april_12.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 6) {
       var randomAnswer1 = a12_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a12_7[Math.floor(Math.random() * a10_5.length)];
@@ -577,11 +486,7 @@ $( document ).ready(function() {
     
 ///////////////////////////  
   //april 13
-  if (
-      april_13.getDate() === todayDate.getDate() &&
-      april_13.getMonth() === todayDate.getMonth() &&
-      april_13.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 7) {
       var randomAnswer1 = a13_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a13_7[Math.floor(Math.random() * a10_5.length)];
@@ -597,11 +502,7 @@ $( document ).ready(function() {
     
   ///////////////////////////  
   //april 14
-  if (
-      april_14.getDate() === todayDate.getDate() &&
-      april_14.getMonth() === todayDate.getMonth() &&
-      april_14.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 8) {
       var randomAnswer1 = a14_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a14_7[Math.floor(Math.random() * a10_5.length)];
@@ -618,11 +519,7 @@ $( document ).ready(function() {
     
   ///////////////////////////  
   //april 15
-  if (
-      april_15.getDate() === todayDate.getDate() &&
-      april_15.getMonth() === todayDate.getMonth() &&
-      april_15.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 9) {
       var randomAnswer1 = a15_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a15_7[Math.floor(Math.random() * a10_5.length)];
@@ -638,11 +535,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 16
-  if (
-      april_16.getDate() === todayDate.getDate() &&
-      april_16.getMonth() === todayDate.getMonth() &&
-      april_16.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 10) {
       var randomAnswer1 = a16_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a16_7[Math.floor(Math.random() * a10_5.length)];
@@ -658,11 +551,7 @@ $( document ).ready(function() {
     
 ///////////////////////////  
   //april 17
-  if (
-      april_17.getDate() === todayDate.getDate() &&
-      april_17.getMonth() === todayDate.getMonth() &&
-      april_17.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 11) {
       var randomAnswer1 = a17_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a17_7[Math.floor(Math.random() * a10_5.length)];
@@ -678,11 +567,7 @@ $( document ).ready(function() {
     
   ///////////////////////////  
   //april 18
-  if (
-      april_18.getDate() === todayDate.getDate() &&
-      april_18.getMonth() === todayDate.getMonth() &&
-      april_18.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 12) {
       var randomAnswer1 = a18_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a18_7[Math.floor(Math.random() * a10_5.length)];
@@ -697,11 +582,7 @@ $( document ).ready(function() {
 
   ///////////////////////////  
   //april 19
-  if (
-      april_19.getDate() === todayDate.getDate() &&
-      april_19.getMonth() === todayDate.getMonth() &&
-      april_19.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 13) {
       var randomAnswer1 = a19_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a19_7[Math.floor(Math.random() * a10_5.length)];
@@ -717,11 +598,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 20
-  if (
-      april_20.getDate() === todayDate.getDate() &&
-      april_20.getMonth() === todayDate.getMonth() &&
-      april_20.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 14) {
       var randomAnswer1 = a20_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a20_7[Math.floor(Math.random() * a10_5.length)];
@@ -737,11 +614,7 @@ $( document ).ready(function() {
     
 ///////////////////////////  
   //april 21
-  if (
-      april_21.getDate() === todayDate.getDate() &&
-      april_21.getMonth() === todayDate.getMonth() &&
-      april_21.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 15) {
       var randomAnswer1 = a21_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a21_7[Math.floor(Math.random() * a10_5.length)];
@@ -757,11 +630,7 @@ $( document ).ready(function() {
     
   ///////////////////////////  
   //april 22
-  if (
-      april_22.getDate() === todayDate.getDate() &&
-      april_22.getMonth() === todayDate.getMonth() &&
-      april_22.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 16) {
       var randomAnswer1 = a22_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a22_7[Math.floor(Math.random() * a10_5.length)];
@@ -777,11 +646,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 23
-  if (
-      april_23.getDate() === todayDate.getDate() &&
-      april_23.getMonth() === todayDate.getMonth() &&
-      april_23.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 17) {
       var randomAnswer1 = a23_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a23_7[Math.floor(Math.random() * a10_5.length)];
@@ -797,11 +662,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 24
-  if (
-      april_24.getDate() === todayDate.getDate() &&
-      april_24.getMonth() === todayDate.getMonth() &&
-      april_24.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 18) {
       var randomAnswer1 = a24_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a24_7[Math.floor(Math.random() * a10_5.length)];
@@ -817,11 +678,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 25
-  if (
-      april_25.getDate() === todayDate.getDate() &&
-      april_25.getMonth() === todayDate.getMonth() &&
-      april_25.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 19) {
       var randomAnswer1 = a25_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a25_7[Math.floor(Math.random() * a10_5.length)];
@@ -837,11 +694,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 26
-  if (
-      april_26.getDate() === todayDate.getDate() &&
-      april_26.getMonth() === todayDate.getMonth() &&
-      april_26.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 20) {
       var randomAnswer1 = a26_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a26_7[Math.floor(Math.random() * a10_5.length)];
@@ -857,11 +710,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 27
-  if (
-      april_27.getDate() === todayDate.getDate() &&
-      april_27.getMonth() === todayDate.getMonth() &&
-      april_27.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 21) {
       var randomAnswer1 = a27_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a27_7[Math.floor(Math.random() * a10_5.length)];
@@ -877,11 +726,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 28
-  if (
-      april_28.getDate() === todayDate.getDate() &&
-      april_28.getMonth() === todayDate.getMonth() &&
-      april_28.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 22) {
       var randomAnswer1 = a28_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a28_7[Math.floor(Math.random() * a10_5.length)];
@@ -897,11 +742,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 29
-  if (
-      april_29.getDate() === todayDate.getDate() &&
-      april_29.getMonth() === todayDate.getMonth() &&
-      april_29.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 23) {
       var randomAnswer1 = a29_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a29_7[Math.floor(Math.random() * a10_5.length)];
@@ -917,11 +758,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //april 30
-  if (
-      april_30.getDate() === todayDate.getDate() &&
-      april_30.getMonth() === todayDate.getMonth() &&
-      april_30.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 24) {
       var randomAnswer1 = a30_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = a30_7[Math.floor(Math.random() * a10_5.length)];
@@ -937,11 +774,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //may 1
-  if (
-      may_1.getDate() === todayDate.getDate() &&
-      may_1.getMonth() === todayDate.getMonth() &&
-      may_1.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 25) {
       var randomAnswer1 = m1_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = m1_7[Math.floor(Math.random() * a10_5.length)];
@@ -957,11 +790,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //may 2
-  if (
-      may_2.getDate() === todayDate.getDate() &&
-      may_2.getMonth() === todayDate.getMonth() &&
-      may_2.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 26) {
       var randomAnswer1 = m2_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = m2_7[Math.floor(Math.random() * a10_5.length)];
@@ -977,11 +806,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //may 3
-  if (
-      may_3.getDate() === todayDate.getDate() &&
-      may_3.getMonth() === todayDate.getMonth() &&
-      may_3.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 27) {
       var randomAnswer1 = m3_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = m3_7[Math.floor(Math.random() * a10_5.length)];
@@ -997,11 +822,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //may 4
-  if (
-      may_4.getDate() === todayDate.getDate() &&
-      may_4.getMonth() === todayDate.getMonth() &&
-      may_4.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 28) {
       var randomAnswer1 = m4_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = m4_7[Math.floor(Math.random() * a10_5.length)];
@@ -1017,11 +838,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //may 5
-  if (
-      may_5.getDate() === todayDate.getDate() &&
-      may_5.getMonth() === todayDate.getMonth() &&
-      may_5.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 29) {
       var randomAnswer1 = m5_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = m5_7[Math.floor(Math.random() * a10_5.length)];
@@ -1037,11 +854,7 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //may 6
-  if (
-      may_6.getDate() === todayDate.getDate() &&
-      may_6.getMonth() === todayDate.getMonth() &&
-      may_6.getYear() === todayDate.getYear()
-    ) {
+  if (todayDate.getDate() == 30) {
       var randomAnswer1 = m6_5[Math.floor(Math.random() * a10_5.length)];
       $('#lineOne').html(randomAnswer1);
       var randomAnswer2 = m6_7[Math.floor(Math.random() * a10_5.length)];
@@ -1057,35 +870,31 @@ $( document ).ready(function() {
   
   ///////////////////////////  
   //may 7
- //  if (
- //      may_7.getDate() === todayDate.getDate() &&
-//       may_7.getMonth() === todayDate.getMonth() &&
-//       may_7.getYear() === todayDate.getYear()
-//     ) {
- //      var randomAnswer1 = m7_5[Math.floor(Math.random() * a10_5.length)];
-//       $('#lineOne').html(randomAnswer1);
- //      var randomAnswer2 = m7_7[Math.floor(Math.random() * a10_5.length)];
- //      $('#lineTwo').html(randomAnswer2);
- //      var randomAnswer3 = m7_2_5[Math.floor(Math.random() * a10_5.length)];
- //      $('#lineThree').html(randomAnswer3);
-      // $('#mv7').css( "display", "block" );
- //      $("#videoElement").show();
- //      $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6').css( "display", "none" );
+  if (todayDate.getDate() == 31) {
+      var randomAnswer1 = m7_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineOne').html(randomAnswer1);
+      var randomAnswer2 = m7_7[Math.floor(Math.random() * a10_5.length)];
+      $('#lineTwo').html(randomAnswer2);
+      var randomAnswer3 = m7_2_5[Math.floor(Math.random() * a10_5.length)];
+      $('#lineThree').html(randomAnswer3);
+      $('#mv7').css( "display", "block" );
+      $("#videoElement").show();
+      $('#v7, #v8, #v9, #v10, #v11, #v12, #v13, #v14, #v15, #v16, #v17, #v18, #v19, #v20, #v21, #v22, #v23, #v24, #v25, #v26, #v27, #v28, #v29, #v30, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6').css( "display", "none" );
 
- //      var video = document.querySelector("#videoElement");
+      var video = document.querySelector("#videoElement");
 
-    //   if (navigator.mediaDevices.getUserMedia) {
-   //    navigator.mediaDevices.getUserMedia({ video: true })
-   //        .then(function (stream) {
-   //        video.srcObject = stream;
-   //        })
-   //        .catch(function (err0r) {
-   //        console.log("Something went wrong!");
-   //        });
-  //     }
- //    } else{
- //      console.log("not may 7");
-//     }
+      if (navigator.mediaDevices.getUserMedia) {
+      navigator.mediaDevices.getUserMedia({ video: true })
+          .then(function (stream) {
+          video.srcObject = stream;
+          })
+          .catch(function (err0r) {
+          console.log("Something went wrong!");
+          });
+      }
+    } else{
+      console.log("not may 7");
+    }
   
   
 ////////////////////
