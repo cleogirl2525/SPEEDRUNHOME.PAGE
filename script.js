@@ -2,8 +2,14 @@
 //!!!!!!!!!!!!!!!!!!!
 // gets current date
 //!!!!!!!!!!!!!!!!!!!
-const todayDate = new Date();
+let todayDate = new Date();
 
+const p = new URLSearchParams(location.search)
+if(p.get('day')) {
+  todayDate.setMonth(0)
+  todayDate.setDate(parseInt(p.get('day')))
+  console.log(todayDate)  
+}
 
 //!!!!!!!!!!!!!!!!!!!!!!!
 // arrays for each date
