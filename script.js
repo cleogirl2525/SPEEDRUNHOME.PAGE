@@ -124,19 +124,19 @@ var a15_2_5 = ["lifing 10 x me", "powerlift barbie", "powerbuilder pup", "hot gi
 /////////////////////////
 //haiku array for april 16
   //5 syl
-var a16_5 = ["girls room smoking cough", "movie day tardy", "no ideally", "foot tap vampire", "jacket gambeling"];
+var a16_5 = ["girls room smoking cough", "movie day tardy", "no ideally", "foot tap vampire", "jacket gambling"];
 
   //7 syl
-var a16_7 = ["top perfect them arrangemnts", "grade slut for the b-", "fingertip measuingstick", "reading counts book club winner", "front row trouble kid love letter"];
+var a16_7 = ["top perfect them arrangemnts", "grade slut for the b-", "fingertip measuring stick ", "reading counts book club winner", "front row trouble kid love letter"];
 
   //5_2 syl
-var a16_2_5 = ["maryjane step count", "parkinglot salon", "keychain engagement", "white out nail coture", "mom said no xanga"];
+var a16_2_5 = ["maryjane step count", "parking lot salon", "keychain engagement", "white out nail couture", "mom said no xanga"];
 
 
 /////////////////////////
 //haiku array for april 17, swimming pool
   //5 syl
-var a17_5 = ["the splish splash wet kind", "no running baby", "hot lifeguard crush life", "cabana cuties", "bare feet only here"];
+var a17_5 = ["the splish splash wet kind", "no running babe", "hot lifeguard crush life", "cabana cuties", "bare feet only here"];
 
   //7 syl
 var a17_7 = ["slip slide goes the bottom and", "deep water, high drama slow", "lemon juice blonde hair once", "loud girls, sexy in the shade", "concrete ripple under foot"];
@@ -194,7 +194,7 @@ var a21_2_5 = ["tracing and tracking", "disintegration", "soaring past square cl
 /////////////////////////
 //haiku array for april 22 bondage
   //5 syl
-var a22_5 = ["dormire sin ti", "unstill cookie treat", "lisa frank keepr", "secret trapper line", "hand never left cheek"];
+var a22_5 = ["touch always my love", "unstill cookie treat", "lisa frank keepr", "secret trapper line", "hand never left cheek"];
 
   //7 syl
 var a22_7 = ["mistle toe jute romp", "whats tenderizing comfort", "after deliciousness here", "in arms, my lovely dearest", "artery2artery"];
